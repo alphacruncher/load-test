@@ -1,0 +1,7227 @@
+[
+    {
+      "email": "loadtestuser_ociycxji@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUociycxji", 
+      "uid": 508, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 504
+    }, 
+    {
+      "email": "loadtestuser_rnraywdo@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUrnraywdo", 
+      "uid": 509, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 505
+    }, 
+    {
+      "email": "loadtestuser_vsutojdj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUvsutojdj", 
+      "uid": 510, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 506
+    }, 
+    {
+      "email": "loadtestuser_faoaxoog@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUfaoaxoog", 
+      "uid": 511, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 507
+    }, 
+    {
+      "email": "loadtestuser_lnalbijb@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUlnalbijb", 
+      "uid": 512, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 508
+    }, 
+    {
+      "email": "loadtestuser_lceoizza@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUlceoizza", 
+      "uid": 513, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 509
+    }, 
+    {
+      "email": "loadtestuser_cxcdjxdg@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUcxcdjxdg", 
+      "uid": 514, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 510
+    }, 
+    {
+      "email": "loadtestuser_synhvtpl@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsynhvtpl", 
+      "uid": 515, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 511
+    }, 
+    {
+      "email": "loadtestuser_bwkovlef@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUbwkovlef", 
+      "uid": 516, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 512
+    }, 
+    {
+      "email": "loadtestuser_wtpxashm@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwtpxashm", 
+      "uid": 517, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 513
+    }, 
+    {
+      "email": "loadtestuser_ruzcnisk@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUruzcnisk", 
+      "uid": 518, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 514
+    }, 
+    {
+      "email": "loadtestuser_eyzxelxe@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUeyzxelxe", 
+      "uid": 519, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 515
+    }, 
+    {
+      "email": "loadtestuser_kiaaqppf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkiaaqppf", 
+      "uid": 520, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 516
+    }, 
+    {
+      "email": "loadtestuser_jmbuxnav@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjmbuxnav", 
+      "uid": 521, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 517
+    }, 
+    {
+      "email": "loadtestuser_sfmhoxre@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsfmhoxre", 
+      "uid": 522, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 518
+    }, 
+    {
+      "email": "loadtestuser_pjuygjhz@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUpjuygjhz", 
+      "uid": 523, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 519
+    }, 
+    {
+      "email": "loadtestuser_yxxnevja@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUyxxnevja", 
+      "uid": 524, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 520
+    }, 
+    {
+      "email": "loadtestuser_dryoyxag@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUdryoyxag", 
+      "uid": 525, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 521
+    }, 
+    {
+      "email": "loadtestuser_qlquyoje@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUqlquyoje", 
+      "uid": 526, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 522
+    }, 
+    {
+      "email": "loadtestuser_zhuvhnpi@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzhuvhnpi", 
+      "uid": 527, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 523
+    }, 
+    {
+      "email": "loadtestuser_mnzdpppu@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUmnzdpppu", 
+      "uid": 528, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 524
+    }, 
+    {
+      "email": "loadtestuser_byrfrnyq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUbyrfrnyq", 
+      "uid": 529, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 525
+    }, 
+    {
+      "email": "loadtestuser_uhklbeei@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUuhklbeei", 
+      "uid": 530, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 526
+    }, 
+    {
+      "email": "loadtestuser_wyqgtryu@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwyqgtryu", 
+      "uid": 531, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 527
+    }, 
+    {
+      "email": "loadtestuser_avdgkywg@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUavdgkywg", 
+      "uid": 532, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 528
+    }, 
+    {
+      "email": "loadtestuser_pjluziuo@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUpjluziuo", 
+      "uid": 533, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 529
+    }, 
+    {
+      "email": "loadtestuser_sfjxdand@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsfjxdand", 
+      "uid": 534, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 530
+    }, 
+    {
+      "email": "loadtestuser_fjqswcyl@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUfjqswcyl", 
+      "uid": 535, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 531
+    }, 
+    {
+      "email": "loadtestuser_fafifoqb@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUfafifoqb", 
+      "uid": 536, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 532
+    }, 
+    {
+      "email": "loadtestuser_gpppwxye@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUgpppwxye", 
+      "uid": 537, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 533
+    }, 
+    {
+      "email": "loadtestuser_abbrhxlh@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUabbrhxlh", 
+      "uid": 538, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 534
+    }, 
+    {
+      "email": "loadtestuser_bnlysogt@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUbnlysogt", 
+      "uid": 539, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 535
+    }, 
+    {
+      "email": "loadtestuser_tqhreswi@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUtqhreswi", 
+      "uid": 540, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 536
+    }, 
+    {
+      "email": "loadtestuser_saeztiid@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsaeztiid", 
+      "uid": 541, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 537
+    }, 
+    {
+      "email": "loadtestuser_efbvsouy@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUefbvsouy", 
+      "uid": 542, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 538
+    }, 
+    {
+      "email": "loadtestuser_mogvuyet@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUmogvuyet", 
+      "uid": 543, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 539
+    }, 
+    {
+      "email": "loadtestuser_yqvxswaz@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUyqvxswaz", 
+      "uid": 544, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 540
+    }, 
+    {
+      "email": "loadtestuser_nvcirhmv@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUnvcirhmv", 
+      "uid": 545, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 541
+    }, 
+    {
+      "email": "loadtestuser_vnxozaey@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUvnxozaey", 
+      "uid": 546, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 542
+    }, 
+    {
+      "email": "loadtestuser_akdsshlt@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUakdsshlt", 
+      "uid": 547, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 543
+    }, 
+    {
+      "email": "loadtestuser_hhksnbze@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhhksnbze", 
+      "uid": 548, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 544
+    }, 
+    {
+      "email": "loadtestuser_ktejxikr@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUktejxikr", 
+      "uid": 549, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 545
+    }, 
+    {
+      "email": "loadtestuser_ddxyslgj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUddxyslgj", 
+      "uid": 550, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 546
+    }, 
+    {
+      "email": "loadtestuser_tgjxjlgc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUtgjxjlgc", 
+      "uid": 551, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 547
+    }, 
+    {
+      "email": "loadtestuser_mqqnxekb@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUmqqnxekb", 
+      "uid": 552, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 548
+    }, 
+    {
+      "email": "loadtestuser_wptmglmi@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwptmglmi", 
+      "uid": 553, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 549
+    }, 
+    {
+      "email": "loadtestuser_qkdahkbz@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUqkdahkbz", 
+      "uid": 554, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 550
+    }, 
+    {
+      "email": "loadtestuser_dkydutrb@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUdkydutrb", 
+      "uid": 555, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 551
+    }, 
+    {
+      "email": "loadtestuser_mzdwjkah@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUmzdwjkah", 
+      "uid": 556, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 552
+    }, 
+    {
+      "email": "loadtestuser_gxwsohgc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUgxwsohgc", 
+      "uid": 557, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 553
+    }, 
+    {
+      "email": "loadtestuser_tdpmizoi@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUtdpmizoi", 
+      "uid": 558, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 554
+    }, 
+    {
+      "email": "loadtestuser_jdpuevkg@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjdpuevkg", 
+      "uid": 559, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 555
+    }, 
+    {
+      "email": "loadtestuser_hxqanqsf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhxqanqsf", 
+      "uid": 560, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 556
+    }, 
+    {
+      "email": "loadtestuser_plptmkgq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUplptmkgq", 
+      "uid": 561, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 557
+    }, 
+    {
+      "email": "loadtestuser_jllazbwe@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjllazbwe", 
+      "uid": 562, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 558
+    }, 
+    {
+      "email": "loadtestuser_bjxufqku@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUbjxufqku", 
+      "uid": 563, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 559
+    }, 
+    {
+      "email": "loadtestuser_fbmyokjw@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUfbmyokjw", 
+      "uid": 564, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 560
+    }, 
+    {
+      "email": "loadtestuser_cltlgvkh@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUcltlgvkh", 
+      "uid": 565, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 561
+    }, 
+    {
+      "email": "loadtestuser_tgjhedwl@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUtgjhedwl", 
+      "uid": 566, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 562
+    }, 
+    {
+      "email": "loadtestuser_pzccfund@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUpzccfund", 
+      "uid": 567, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 563
+    }, 
+    {
+      "email": "loadtestuser_ievogach@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUievogach", 
+      "uid": 568, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 564
+    }, 
+    {
+      "email": "loadtestuser_yybcexlx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUyybcexlx", 
+      "uid": 569, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 565
+    }, 
+    {
+      "email": "loadtestuser_bktmrbyf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUbktmrbyf", 
+      "uid": 570, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 566
+    }, 
+    {
+      "email": "loadtestuser_eqhzveon@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUeqhzveon", 
+      "uid": 571, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 567
+    }, 
+    {
+      "email": "loadtestuser_bvslorii@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUbvslorii", 
+      "uid": 572, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 568
+    }, 
+    {
+      "email": "loadtestuser_ktkepfqt@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUktkepfqt", 
+      "uid": 573, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 569
+    }, 
+    {
+      "email": "loadtestuser_pexyhbkb@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUpexyhbkb", 
+      "uid": 574, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 570
+    }, 
+    {
+      "email": "loadtestuser_cxmspuhj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUcxmspuhj", 
+      "uid": 575, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 571
+    }, 
+    {
+      "email": "loadtestuser_kjzlipzy@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkjzlipzy", 
+      "uid": 576, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 572
+    }, 
+    {
+      "email": "loadtestuser_waaibasa@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwaaibasa", 
+      "uid": 577, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 573
+    }, 
+    {
+      "email": "loadtestuser_zapnvpcb@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzapnvpcb", 
+      "uid": 578, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 574
+    }, 
+    {
+      "email": "loadtestuser_ilplfgji@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUilplfgji", 
+      "uid": 579, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 575
+    }, 
+    {
+      "email": "loadtestuser_ehuaalno@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUehuaalno", 
+      "uid": 580, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 576
+    }, 
+    {
+      "email": "loadtestuser_yziqgkta@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUyziqgkta", 
+      "uid": 581, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 577
+    }, 
+    {
+      "email": "loadtestuser_zhtwzulk@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzhtwzulk", 
+      "uid": 582, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 578
+    }, 
+    {
+      "email": "loadtestuser_syyavphy@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsyyavphy", 
+      "uid": 583, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 579
+    }, 
+    {
+      "email": "loadtestuser_lwksbrff@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUlwksbrff", 
+      "uid": 584, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 580
+    }, 
+    {
+      "email": "loadtestuser_vcvbvupp@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUvcvbvupp", 
+      "uid": 585, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 581
+    }, 
+    {
+      "email": "loadtestuser_ltovcyyi@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUltovcyyi", 
+      "uid": 586, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 582
+    }, 
+    {
+      "email": "loadtestuser_gexaxwfg@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUgexaxwfg", 
+      "uid": 587, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 583
+    }, 
+    {
+      "email": "loadtestuser_rwdogbbr@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUrwdogbbr", 
+      "uid": 588, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 584
+    }, 
+    {
+      "email": "loadtestuser_hkvnvifu@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhkvnvifu", 
+      "uid": 589, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 585
+    }, 
+    {
+      "email": "loadtestuser_fuvbrrll@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUfuvbrrll", 
+      "uid": 590, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 586
+    }, 
+    {
+      "email": "loadtestuser_noervrkd@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUnoervrkd", 
+      "uid": 591, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 587
+    }, 
+    {
+      "email": "loadtestuser_mghhkptx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUmghhkptx", 
+      "uid": 592, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 588
+    }, 
+    {
+      "email": "loadtestuser_sbrvdddp@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsbrvdddp", 
+      "uid": 593, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 589
+    }, 
+    {
+      "email": "loadtestuser_ufdnikrj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUufdnikrj", 
+      "uid": 594, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 590
+    }, 
+    {
+      "email": "loadtestuser_dqxbrwdk@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUdqxbrwdk", 
+      "uid": 595, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 591
+    }, 
+    {
+      "email": "loadtestuser_ycaasnjq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUycaasnjq", 
+      "uid": 596, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 592
+    }, 
+    {
+      "email": "loadtestuser_zbhrxnru@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzbhrxnru", 
+      "uid": 597, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 593
+    }, 
+    {
+      "email": "loadtestuser_knoaihlf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUknoaihlf", 
+      "uid": 598, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 594
+    }, 
+    {
+      "email": "loadtestuser_lrtfaomm@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUlrtfaomm", 
+      "uid": 599, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 595
+    }, 
+    {
+      "email": "loadtestuser_ncyxyoqc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUncyxyoqc", 
+      "uid": 600, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 596
+    }, 
+    {
+      "email": "loadtestuser_ksdefnub@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUksdefnub", 
+      "uid": 601, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 597
+    }, 
+    {
+      "email": "loadtestuser_nahmvsth@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUnahmvsth", 
+      "uid": 602, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 598
+    }, 
+    {
+      "email": "loadtestuser_vpguaazh@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUvpguaazh", 
+      "uid": 603, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 599
+    }, 
+    {
+      "email": "loadtestuser_bcrjedwa@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUbcrjedwa", 
+      "uid": 604, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 600
+    }, 
+    {
+      "email": "loadtestuser_ydgwtydw@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUydgwtydw", 
+      "uid": 605, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 601
+    }, 
+    {
+      "email": "loadtestuser_jcltjucg@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjcltjucg", 
+      "uid": 606, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 602
+    }, 
+    {
+      "email": "loadtestuser_xspbchei@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUxspbchei", 
+      "uid": 607, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 603
+    }, 
+    {
+      "email": "loadtestuser_nycwtdjz@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUnycwtdjz", 
+      "uid": 608, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 604
+    }, 
+    {
+      "email": "loadtestuser_igvkxdsj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUigvkxdsj", 
+      "uid": 609, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 605
+    }, 
+    {
+      "email": "loadtestuser_nzkoiuvv@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUnzkoiuvv", 
+      "uid": 610, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 606
+    }, 
+    {
+      "email": "loadtestuser_xiicbgdm@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUxiicbgdm", 
+      "uid": 611, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 607
+    }, 
+    {
+      "email": "loadtestuser_xiodtqyv@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUxiodtqyv", 
+      "uid": 612, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 608
+    }, 
+    {
+      "email": "loadtestuser_awqgyvmj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUawqgyvmj", 
+      "uid": 613, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 609
+    }, 
+    {
+      "email": "loadtestuser_myprwvaw@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUmyprwvaw", 
+      "uid": 614, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 610
+    }, 
+    {
+      "email": "loadtestuser_vormpzxv@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUvormpzxv", 
+      "uid": 615, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 611
+    }, 
+    {
+      "email": "loadtestuser_hsglxrtm@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhsglxrtm", 
+      "uid": 616, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 612
+    }, 
+    {
+      "email": "loadtestuser_jryyatda@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjryyatda", 
+      "uid": 617, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 613
+    }, 
+    {
+      "email": "loadtestuser_wnrterhg@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwnrterhg", 
+      "uid": 618, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 614
+    }, 
+    {
+      "email": "loadtestuser_gbvtespi@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUgbvtespi", 
+      "uid": 619, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 615
+    }, 
+    {
+      "email": "loadtestuser_lddatdhf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUlddatdhf", 
+      "uid": 620, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 616
+    }, 
+    {
+      "email": "loadtestuser_czqngthm@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUczqngthm", 
+      "uid": 621, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 617
+    }, 
+    {
+      "email": "loadtestuser_zqbeecao@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzqbeecao", 
+      "uid": 622, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 618
+    }, 
+    {
+      "email": "loadtestuser_exvtikzk@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUexvtikzk", 
+      "uid": 623, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 619
+    }, 
+    {
+      "email": "loadtestuser_ylehcqzt@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUylehcqzt", 
+      "uid": 624, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 620
+    }, 
+    {
+      "email": "loadtestuser_gkbkjowa@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUgkbkjowa", 
+      "uid": 625, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 621
+    }, 
+    {
+      "email": "loadtestuser_czxsquan@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUczxsquan", 
+      "uid": 626, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 622
+    }, 
+    {
+      "email": "loadtestuser_ifkxbhzj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUifkxbhzj", 
+      "uid": 627, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 623
+    }, 
+    {
+      "email": "loadtestuser_jrriijkm@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjrriijkm", 
+      "uid": 628, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 624
+    }, 
+    {
+      "email": "loadtestuser_qhpekruq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUqhpekruq", 
+      "uid": 629, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 625
+    }, 
+    {
+      "email": "loadtestuser_gjgzcefd@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUgjgzcefd", 
+      "uid": 630, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 626
+    }, 
+    {
+      "email": "loadtestuser_mougoeuz@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUmougoeuz", 
+      "uid": 631, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 627
+    }, 
+    {
+      "email": "loadtestuser_gehsseih@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUgehsseih", 
+      "uid": 632, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 628
+    }, 
+    {
+      "email": "loadtestuser_apyrogip@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUapyrogip", 
+      "uid": 633, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 629
+    }, 
+    {
+      "email": "loadtestuser_zafmqivf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzafmqivf", 
+      "uid": 634, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 630
+    }, 
+    {
+      "email": "loadtestuser_iploxkgx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUiploxkgx", 
+      "uid": 635, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 631
+    }, 
+    {
+      "email": "loadtestuser_suzaminl@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsuzaminl", 
+      "uid": 636, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 632
+    }, 
+    {
+      "email": "loadtestuser_wxznclvk@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwxznclvk", 
+      "uid": 637, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 633
+    }, 
+    {
+      "email": "loadtestuser_darjkpdi@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUdarjkpdi", 
+      "uid": 638, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 634
+    }, 
+    {
+      "email": "loadtestuser_dwksyghf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUdwksyghf", 
+      "uid": 639, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 635
+    }, 
+    {
+      "email": "loadtestuser_iydfswgo@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUiydfswgo", 
+      "uid": 640, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 636
+    }, 
+    {
+      "email": "loadtestuser_txebusse@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUtxebusse", 
+      "uid": 641, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 637
+    }, 
+    {
+      "email": "loadtestuser_qhvvadfx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUqhvvadfx", 
+      "uid": 642, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 638
+    }, 
+    {
+      "email": "loadtestuser_pzudobta@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUpzudobta", 
+      "uid": 643, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 639
+    }, 
+    {
+      "email": "loadtestuser_reezjpyz@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUreezjpyz", 
+      "uid": 644, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 640
+    }, 
+    {
+      "email": "loadtestuser_tgkzwtog@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUtgkzwtog", 
+      "uid": 645, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 641
+    }, 
+    {
+      "email": "loadtestuser_kkdlpenl@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkkdlpenl", 
+      "uid": 646, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 642
+    }, 
+    {
+      "email": "loadtestuser_ounxansh@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUounxansh", 
+      "uid": 647, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 643
+    }, 
+    {
+      "email": "loadtestuser_krxcianq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkrxcianq", 
+      "uid": 648, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 644
+    }, 
+    {
+      "email": "loadtestuser_hlxrnlzx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhlxrnlzx", 
+      "uid": 649, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 645
+    }, 
+    {
+      "email": "loadtestuser_rlaqpwzx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUrlaqpwzx", 
+      "uid": 650, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 646
+    }, 
+    {
+      "email": "loadtestuser_kbrdbdue@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkbrdbdue", 
+      "uid": 651, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 647
+    }, 
+    {
+      "email": "loadtestuser_kygfaddc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkygfaddc", 
+      "uid": 652, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 648
+    }, 
+    {
+      "email": "loadtestuser_tarmcnml@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUtarmcnml", 
+      "uid": 653, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 649
+    }, 
+    {
+      "email": "loadtestuser_kbyzloyu@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkbyzloyu", 
+      "uid": 654, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 650
+    }, 
+    {
+      "email": "loadtestuser_ixtxbdrx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUixtxbdrx", 
+      "uid": 655, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 651
+    }, 
+    {
+      "email": "loadtestuser_udngveaz@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUudngveaz", 
+      "uid": 656, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 652
+    }, 
+    {
+      "email": "loadtestuser_cjcxznka@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUcjcxznka", 
+      "uid": 657, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 653
+    }, 
+    {
+      "email": "loadtestuser_ltsomxqx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUltsomxqx", 
+      "uid": 658, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 654
+    }, 
+    {
+      "email": "loadtestuser_wzvlguay@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwzvlguay", 
+      "uid": 659, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 655
+    }, 
+    {
+      "email": "loadtestuser_lkzgxrid@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUlkzgxrid", 
+      "uid": 660, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 656
+    }, 
+    {
+      "email": "loadtestuser_ugoisves@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUugoisves", 
+      "uid": 661, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 657
+    }, 
+    {
+      "email": "loadtestuser_nzphzbhx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUnzphzbhx", 
+      "uid": 662, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 658
+    }, 
+    {
+      "email": "loadtestuser_ywrzroin@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUywrzroin", 
+      "uid": 663, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 659
+    }, 
+    {
+      "email": "loadtestuser_wkuyysha@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwkuyysha", 
+      "uid": 664, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 660
+    }, 
+    {
+      "email": "loadtestuser_vpupsnpf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUvpupsnpf", 
+      "uid": 665, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 661
+    }, 
+    {
+      "email": "loadtestuser_dkjjwggl@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUdkjjwggl", 
+      "uid": 666, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 662
+    }, 
+    {
+      "email": "loadtestuser_qrjhhttx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUqrjhhttx", 
+      "uid": 667, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 663
+    }, 
+    {
+      "email": "loadtestuser_tkqhvqnv@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUtkqhvqnv", 
+      "uid": 668, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 664
+    }, 
+    {
+      "email": "loadtestuser_nxyicnmh@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUnxyicnmh", 
+      "uid": 669, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 665
+    }, 
+    {
+      "email": "loadtestuser_nbfnohsj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUnbfnohsj", 
+      "uid": 670, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 666
+    }, 
+    {
+      "email": "loadtestuser_spgcuncv@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUspgcuncv", 
+      "uid": 671, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 667
+    }, 
+    {
+      "email": "loadtestuser_zdhcwwkj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzdhcwwkj", 
+      "uid": 672, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 668
+    }, 
+    {
+      "email": "loadtestuser_agauhamq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUagauhamq", 
+      "uid": 673, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 669
+    }, 
+    {
+      "email": "loadtestuser_wootwmqc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwootwmqc", 
+      "uid": 674, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 670
+    }, 
+    {
+      "email": "loadtestuser_colasygf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUcolasygf", 
+      "uid": 675, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 671
+    }, 
+    {
+      "email": "loadtestuser_ogmoxfcj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUogmoxfcj", 
+      "uid": 676, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 672
+    }, 
+    {
+      "email": "loadtestuser_zirikzxg@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzirikzxg", 
+      "uid": 677, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 673
+    }, 
+    {
+      "email": "loadtestuser_djtnzkse@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUdjtnzkse", 
+      "uid": 678, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 674
+    }, 
+    {
+      "email": "loadtestuser_lngqixqc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUlngqixqc", 
+      "uid": 679, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 675
+    }, 
+    {
+      "email": "loadtestuser_ohedoiiu@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUohedoiiu", 
+      "uid": 680, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 676
+    }, 
+    {
+      "email": "loadtestuser_lxlptnrs@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUlxlptnrs", 
+      "uid": 681, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 677
+    }, 
+    {
+      "email": "loadtestuser_usjojipn@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUusjojipn", 
+      "uid": 682, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 678
+    }, 
+    {
+      "email": "loadtestuser_khhoaept@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkhhoaept", 
+      "uid": 683, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 679
+    }, 
+    {
+      "email": "loadtestuser_vrdkegoh@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUvrdkegoh", 
+      "uid": 684, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 680
+    }, 
+    {
+      "email": "loadtestuser_jnwoewbc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjnwoewbc", 
+      "uid": 685, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 681
+    }, 
+    {
+      "email": "loadtestuser_wyncnydl@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwyncnydl", 
+      "uid": 686, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 682
+    }, 
+    {
+      "email": "loadtestuser_ddetyajb@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUddetyajb", 
+      "uid": 687, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 683
+    }, 
+    {
+      "email": "loadtestuser_shvduthr@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUshvduthr", 
+      "uid": 688, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 684
+    }, 
+    {
+      "email": "loadtestuser_llchzznb@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUllchzznb", 
+      "uid": 689, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 685
+    }, 
+    {
+      "email": "loadtestuser_wxntwjrp@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwxntwjrp", 
+      "uid": 690, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 686
+    }, 
+    {
+      "email": "loadtestuser_hoftctpb@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhoftctpb", 
+      "uid": 691, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 687
+    }, 
+    {
+      "email": "loadtestuser_ustxqzze@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUustxqzze", 
+      "uid": 692, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 688
+    }, 
+    {
+      "email": "loadtestuser_relkybzu@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUrelkybzu", 
+      "uid": 693, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 689
+    }, 
+    {
+      "email": "loadtestuser_oofoiiyq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUoofoiiyq", 
+      "uid": 694, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 690
+    }, 
+    {
+      "email": "loadtestuser_ibmtmdvs@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUibmtmdvs", 
+      "uid": 695, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 691
+    }, 
+    {
+      "email": "loadtestuser_phpchxyo@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUphpchxyo", 
+      "uid": 696, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 692
+    }, 
+    {
+      "email": "loadtestuser_ppyuzkzd@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUppyuzkzd", 
+      "uid": 697, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 693
+    }, 
+    {
+      "email": "loadtestuser_lnzcayxz@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUlnzcayxz", 
+      "uid": 698, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 694
+    }, 
+    {
+      "email": "loadtestuser_hvmzkhlq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhvmzkhlq", 
+      "uid": 699, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 695
+    }, 
+    {
+      "email": "loadtestuser_jovsuqfx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjovsuqfx", 
+      "uid": 700, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 696
+    }, 
+    {
+      "email": "loadtestuser_jsqvovrv@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjsqvovrv", 
+      "uid": 701, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 697
+    }, 
+    {
+      "email": "loadtestuser_zywfioax@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzywfioax", 
+      "uid": 702, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 698
+    }, 
+    {
+      "email": "loadtestuser_sveufcny@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsveufcny", 
+      "uid": 703, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 699
+    }, 
+    {
+      "email": "loadtestuser_vqqjwktp@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUvqqjwktp", 
+      "uid": 704, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 700
+    }, 
+    {
+      "email": "loadtestuser_jwmvwoud@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjwmvwoud", 
+      "uid": 705, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 701
+    }, 
+    {
+      "email": "loadtestuser_srurzrei@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsrurzrei", 
+      "uid": 706, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 702
+    }, 
+    {
+      "email": "loadtestuser_pvygidcq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUpvygidcq", 
+      "uid": 707, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 703
+    }, 
+    {
+      "email": "loadtestuser_kqactlkc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkqactlkc", 
+      "uid": 708, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 704
+    }, 
+    {
+      "email": "loadtestuser_mfvclges@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUmfvclges", 
+      "uid": 710, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 706
+    }, 
+    {
+      "email": "loadtestuser_wfcfdprx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwfcfdprx", 
+      "uid": 711, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 707
+    }, 
+    {
+      "email": "loadtestuser_grjufohr@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUgrjufohr", 
+      "uid": 712, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 708
+    }, 
+    {
+      "email": "loadtestuser_eilljloc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUeilljloc", 
+      "uid": 713, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 709
+    }, 
+    {
+      "email": "loadtestuser_gxdltzgf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUgxdltzgf", 
+      "uid": 714, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 710
+    }, 
+    {
+      "email": "loadtestuser_pjwfciqv@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUpjwfciqv", 
+      "uid": 715, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 711
+    }, 
+    {
+      "email": "loadtestuser_gaefwwre@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUgaefwwre", 
+      "uid": 716, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 712
+    }, 
+    {
+      "email": "loadtestuser_xduxpplv@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUxduxpplv", 
+      "uid": 717, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 713
+    }, 
+    {
+      "email": "loadtestuser_adwlcsqj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUadwlcsqj", 
+      "uid": 718, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 714
+    }, 
+    {
+      "email": "loadtestuser_rmxjbbus@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUrmxjbbus", 
+      "uid": 719, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 715
+    }, 
+    {
+      "email": "loadtestuser_vvvatlhn@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUvvvatlhn", 
+      "uid": 720, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 716
+    }, 
+    {
+      "email": "loadtestuser_affimisp@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUaffimisp", 
+      "uid": 721, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 717
+    }, 
+    {
+      "email": "loadtestuser_pbflbtto@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUpbflbtto", 
+      "uid": 722, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 718
+    }, 
+    {
+      "email": "loadtestuser_qjrcfhwe@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUqjrcfhwe", 
+      "uid": 723, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 719
+    }, 
+    {
+      "email": "loadtestuser_grbwzvvk@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUgrbwzvvk", 
+      "uid": 724, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 720
+    }, 
+    {
+      "email": "loadtestuser_pobbpfgs@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUpobbpfgs", 
+      "uid": 725, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 721
+    }, 
+    {
+      "email": "loadtestuser_jgsgbjga@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjgsgbjga", 
+      "uid": 726, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 722
+    }, 
+    {
+      "email": "loadtestuser_wyqzkcdk@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwyqzkcdk", 
+      "uid": 727, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 723
+    }, 
+    {
+      "email": "loadtestuser_vgqyywpd@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUvgqyywpd", 
+      "uid": 728, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 724
+    }, 
+    {
+      "email": "loadtestuser_bdskaemo@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUbdskaemo", 
+      "uid": 729, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 725
+    }, 
+    {
+      "email": "loadtestuser_nteuwcji@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUnteuwcji", 
+      "uid": 730, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 726
+    }, 
+    {
+      "email": "loadtestuser_sgcrjtjx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsgcrjtjx", 
+      "uid": 731, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 727
+    }, 
+    {
+      "email": "loadtestuser_fazxtjum@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUfazxtjum", 
+      "uid": 732, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 728
+    }, 
+    {
+      "email": "loadtestuser_ngpodfuc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUngpodfuc", 
+      "uid": 733, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 729
+    }, 
+    {
+      "email": "loadtestuser_edrschba@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUedrschba", 
+      "uid": 734, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 730
+    }, 
+    {
+      "email": "loadtestuser_tzqsrxcs@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUtzqsrxcs", 
+      "uid": 735, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 731
+    }, 
+    {
+      "email": "loadtestuser_zmlnsmaz@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzmlnsmaz", 
+      "uid": 736, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 732
+    }, 
+    {
+      "email": "loadtestuser_handtdja@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhandtdja", 
+      "uid": 737, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 733
+    }, 
+    {
+      "email": "loadtestuser_wdetifxa@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwdetifxa", 
+      "uid": 738, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 734
+    }, 
+    {
+      "email": "loadtestuser_zwcwrzjm@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzwcwrzjm", 
+      "uid": 739, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 735
+    }, 
+    {
+      "email": "loadtestuser_jxexjvkf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjxexjvkf", 
+      "uid": 740, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 736
+    }, 
+    {
+      "email": "loadtestuser_utvuksxf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUutvuksxf", 
+      "uid": 741, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 737
+    }, 
+    {
+      "email": "loadtestuser_rxrtdnbo@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUrxrtdnbo", 
+      "uid": 742, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 738
+    }, 
+    {
+      "email": "loadtestuser_nlrygjgc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUnlrygjgc", 
+      "uid": 743, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 739
+    }, 
+    {
+      "email": "loadtestuser_fxxbbkxc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUfxxbbkxc", 
+      "uid": 744, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 740
+    }, 
+    {
+      "email": "loadtestuser_hbkdwuja@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhbkdwuja", 
+      "uid": 745, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 741
+    }, 
+    {
+      "email": "loadtestuser_hhipupvn@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhhipupvn", 
+      "uid": 746, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 742
+    }, 
+    {
+      "email": "loadtestuser_qwpizhpq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUqwpizhpq", 
+      "uid": 747, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 743
+    }, 
+    {
+      "email": "loadtestuser_sypjxjlk@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsypjxjlk", 
+      "uid": 748, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 744
+    }, 
+    {
+      "email": "loadtestuser_htoxnuhy@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhtoxnuhy", 
+      "uid": 749, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 745
+    }, 
+    {
+      "email": "loadtestuser_sbeadmbl@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsbeadmbl", 
+      "uid": 750, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 746
+    }, 
+    {
+      "email": "loadtestuser_kntjbbom@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkntjbbom", 
+      "uid": 751, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 747
+    }, 
+    {
+      "email": "loadtestuser_wxnvhrsz@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwxnvhrsz", 
+      "uid": 752, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 748
+    }, 
+    {
+      "email": "loadtestuser_nbhwqnur@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUnbhwqnur", 
+      "uid": 753, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 749
+    }, 
+    {
+      "email": "loadtestuser_cloewytg@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUcloewytg", 
+      "uid": 754, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 750
+    }, 
+    {
+      "email": "loadtestuser_skycdhpw@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUskycdhpw", 
+      "uid": 755, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 751
+    }, 
+    {
+      "email": "loadtestuser_zqcbfxem@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzqcbfxem", 
+      "uid": 756, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 752
+    }, 
+    {
+      "email": "loadtestuser_pebnugzb@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUpebnugzb", 
+      "uid": 757, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 753
+    }, 
+    {
+      "email": "loadtestuser_rgoqfzav@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUrgoqfzav", 
+      "uid": 758, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 754
+    }, 
+    {
+      "email": "loadtestuser_hqldfaxb@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhqldfaxb", 
+      "uid": 759, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 755
+    }, 
+    {
+      "email": "loadtestuser_vsphbtnp@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUvsphbtnp", 
+      "uid": 760, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 756
+    }, 
+    {
+      "email": "loadtestuser_bjyybxhp@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUbjyybxhp", 
+      "uid": 761, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 757
+    }, 
+    {
+      "email": "loadtestuser_zkcdgkmv@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUzkcdgkmv", 
+      "uid": 762, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 758
+    }, 
+    {
+      "email": "loadtestuser_sdzhzggo@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUsdzhzggo", 
+      "uid": 763, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 759
+    }, 
+    {
+      "email": "loadtestuser_gfuianbg@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUgfuianbg", 
+      "uid": 764, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 760
+    }, 
+    {
+      "email": "loadtestuser_ownllesa@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUownllesa", 
+      "uid": 765, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 761
+    }, 
+    {
+      "email": "loadtestuser_ffkjrprw@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUffkjrprw", 
+      "uid": 766, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 762
+    }, 
+    {
+      "email": "loadtestuser_flsqxhsj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUflsqxhsj", 
+      "uid": 767, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 763
+    }, 
+    {
+      "email": "loadtestuser_swotqjig@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUswotqjig", 
+      "uid": 768, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 764
+    }, 
+    {
+      "email": "loadtestuser_akzyiggw@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUakzyiggw", 
+      "uid": 769, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 765
+    }, 
+    {
+      "email": "loadtestuser_hclhfxfr@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhclhfxfr", 
+      "uid": 770, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 766
+    }, 
+    {
+      "email": "loadtestuser_oadsecpd@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUoadsecpd", 
+      "uid": 771, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 767
+    }, 
+    {
+      "email": "loadtestuser_kexvkseg@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkexvkseg", 
+      "uid": 772, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 768
+    }, 
+    {
+      "email": "loadtestuser_jhylyehq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjhylyehq", 
+      "uid": 773, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 769
+    }, 
+    {
+      "email": "loadtestuser_dreddfsj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUdreddfsj", 
+      "uid": 774, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 770
+    }, 
+    {
+      "email": "loadtestuser_kzliddbm@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkzliddbm", 
+      "uid": 775, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 771
+    }, 
+    {
+      "email": "loadtestuser_babgtlli@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUbabgtlli", 
+      "uid": 776, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 772
+    }, 
+    {
+      "email": "loadtestuser_ifhxfonu@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUifhxfonu", 
+      "uid": 777, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 773
+    }, 
+    {
+      "email": "loadtestuser_pbyfzwiz@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUpbyfzwiz", 
+      "uid": 778, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 774
+    }, 
+    {
+      "email": "loadtestuser_akzjchns@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUakzjchns", 
+      "uid": 779, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 775
+    }, 
+    {
+      "email": "loadtestuser_upalzfew@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUupalzfew", 
+      "uid": 780, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 776
+    }, 
+    {
+      "email": "loadtestuser_uyiphutp@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUuyiphutp", 
+      "uid": 781, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 777
+    }, 
+    {
+      "email": "loadtestuser_jkxcvlaa@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjkxcvlaa", 
+      "uid": 782, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 778
+    }, 
+    {
+      "email": "loadtestuser_jdgbtgjm@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjdgbtgjm", 
+      "uid": 783, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 779
+    }, 
+    {
+      "email": "loadtestuser_rsavxijl@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUrsavxijl", 
+      "uid": 784, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 780
+    }, 
+    {
+      "email": "loadtestuser_udoapiqc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUudoapiqc", 
+      "uid": 785, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 781
+    }, 
+    {
+      "email": "loadtestuser_lxfymwri@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUlxfymwri", 
+      "uid": 786, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 782
+    }, 
+    {
+      "email": "loadtestuser_huzbxfsf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUhuzbxfsf", 
+      "uid": 787, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 783
+    }, 
+    {
+      "email": "loadtestuser_boitizjh@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUboitizjh", 
+      "uid": 788, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 784
+    }, 
+    {
+      "email": "loadtestuser_lbsmaaon@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUlbsmaaon", 
+      "uid": 789, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 785
+    }, 
+    {
+      "email": "loadtestuser_prhbohmo@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUprhbohmo", 
+      "uid": 790, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 786
+    }, 
+    {
+      "email": "loadtestuser_mgmdpbhl@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUmgmdpbhl", 
+      "uid": 791, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 787
+    }, 
+    {
+      "email": "loadtestuser_kxfqigdq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUkxfqigdq", 
+      "uid": 792, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 788
+    }, 
+    {
+      "email": "loadtestuser_ruvgvzqa@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUruvgvzqa", 
+      "uid": 793, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 789
+    }, 
+    {
+      "email": "loadtestuser_nxljdzcn@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUnxljdzcn", 
+      "uid": 794, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 790
+    }, 
+    {
+      "email": "loadtestuser_pqgmkjoy@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUpqgmkjoy", 
+      "uid": 795, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 791
+    }, 
+    {
+      "email": "loadtestuser_ogxzqlgg@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUogxzqlgg", 
+      "uid": 796, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 792
+    }, 
+    {
+      "email": "loadtestuser_ymtugfhy@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUymtugfhy", 
+      "uid": 797, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 793
+    }, 
+    {
+      "email": "loadtestuser_jtnxyxbg@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUjtnxyxbg", 
+      "uid": 798, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 794
+    }, 
+    {
+      "email": "loadtestuser_yqslsnqc@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUyqslsnqc", 
+      "uid": 799, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 795
+    }, 
+    {
+      "email": "loadtestuser_whxntcco@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUwhxntcco", 
+      "uid": 800, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 796
+    }, 
+    {
+      "email": "loadtestuser_lfcvcshf@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUlfcvcshf", 
+      "uid": 801, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 797
+    }, 
+    {
+      "email": "loadtestuser_xfctuodq@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUxfctuodq", 
+      "uid": 802, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 798
+    }, 
+    {
+      "email": "loadtestuser_ypdzlldu@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUypdzlldu", 
+      "uid": 803, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 799
+    }, 
+    {
+      "email": "loadtestuser_mosziywx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUmosziywx", 
+      "uid": 804, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 800
+    }, 
+    {
+      "email": "loadtestuser_ncsgrppj@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUncsgrppj", 
+      "uid": 805, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 801
+    }, 
+    {
+      "email": "loadtestuser_qiqgskwx@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUqiqgskwx", 
+      "uid": 806, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 802
+    }, 
+    {
+      "email": "loadtestuser_cllwfgao@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUcllwfgao", 
+      "uid": 807, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 803
+    }, 
+    {
+      "email": "loadtestuser_voknevsr@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUvoknevsr", 
+      "uid": 808, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 804
+    }, 
+    {
+      "email": "loadtestuser_czgxzcsw@alphacruncher.com", 
+      "space_role": "None", 
+      "conn_name": "DataHub", 
+      "space_name": "Azure Load Test - RStudio - 301 users", 
+      "full_name": "User LTUczgxzcsw", 
+      "uid": 809, 
+      "instance_editor_roles": [
+        {
+          "role_name": "EDITOR", 
+          "Instance": "Master", 
+          "iid": 3433
+        }
+      ], 
+      "instance_viewer_roles": [
+        {
+          "role_name": "VIEWER", 
+          "Instance": "Distributed", 
+          "iid": 3434
+        }
+      ], 
+      "is_active": true, 
+      "ucid": 805
+    }
+  ]
+  
