@@ -57,7 +57,7 @@ Let's run a quick Selenium job to validate our setup.
 
 #### Setup Python Environment
 
-First, we need to start a python container that we can attach to.
+First, we need to start a python container that we can attach to. Make sure you are creating the pod in the selenium-loadtest namespace!
 
 ```console
 kubectl run selenium-python --image=python:3.8.0 -- sleep 36000
@@ -66,8 +66,8 @@ kubectl run selenium-python --image=python:3.8.0 -- sleep 36000
 Copy over the users.json and selenium test files:
 
 ```
-kubectl cp selenium-test.py $PODNAME:/tmp/
-kubectl cp users.json $PODNAME:/tmp/
+kubectl cp selenium-test.py selenium-python:/tmp/
+kubectl cp users.json selenium-python:/tmp/
 ```
 
 Next, we need to get inside this container.
@@ -87,7 +87,7 @@ Finally execute the tests:
 
 ```
 cd /tmp
-for i in {1..100}; do echo $i; nohup python selenium-test.py --userindex $i & done
+for i in {1..100}; do echo $i; sleep 3; nohup python selenium-test.py --userindex $i & done
 ```
 
 ### Scale your Firefox and Chrome nodes.
