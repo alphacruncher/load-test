@@ -99,6 +99,16 @@ The script will run continuously until interrupted with Ctrl+C.
 - Tests filesystem operations, Python package management, and dependency resolution
 - Automatically cleans up the virtual environment after measurement
 
+
+### Pandas Load Test (`pandas_load`)
+
+- **One-time setup**: Creates a persistent virtual environment with pandas installed
+- **Per-iteration test**: Measures pandas import time in fresh Python processes
+- Tests filesystem scan performance (pandas scans thousands of files on import)
+- Setup phase runs only once when the script starts
+- Virtual environment persists between test cycles (no cleanup)
+- Each test iteration spawns a new Python process for "cold start" measurement
+
 ## Database Schema
 
 Test results are stored in PostgreSQL with the following structure:

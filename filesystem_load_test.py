@@ -98,6 +98,7 @@ class FilesystemLoadTester:
         self.config = self.load_config()
         self.db_logger = DatabaseLogger(self.config)
         self.target_path = Path(self.config["target_path"])
+        self.setup_completed = set()  # Track which tests have completed setup
         self.setup_logging()
 
     def load_config(self) -> Dict[str, Any]:
@@ -160,17 +161,29 @@ class FilesystemLoadTester:
 
         try:
             logging.info(f"Starting test: {test_name}")
-            
+
             # Get test definition
             if test_name not in self.config["test_definitions"]:
-                raise ValueError(f"Test case '{test_name}' not found in test_definitions")
-            
+                raise ValueError(
+                    f"Test case '{test_name}' not found in test_definitions"
+                )
+
             test_config = self.config["test_definitions"][test_name]
             test_type = test_config["type"]
 
+            # Check if setup is required and not yet completed
+            if (
+                test_config.get("setup_required", False)
+                and test_name not in self.setup_completed
+            ):
+                logging.info(f"Running setup for test: {test_name}")
+                self.run_test_setup(test_name, test_config)
+                self.setup_completed.add(test_name)
+                logging.info(f"Setup completed for test: {test_name}")
             if test_type == "git_clone":
                 execution_time = self.test_git_clone(test_config)
-            elif test_type == "virtualenv_install":
+                execution_time = self.test_virtualenv_install(test_config)
+                execution_time = self.test_pandas_load(test_config)
                 execution_time = self.test_virtualenv_install(test_config)
             else:
                 raise ValueError(f"Unknown test type: {test_type}")
@@ -267,6 +280,104 @@ class FilesystemLoadTester:
             # Cleanup: Remove virtual environment
             if venv_dir.exists():
                 shutil.rmtree(venv_dir)
+
+    def run_test_setup(self, test_name: str, test_config: Dict[str, Any]) -> None:
+        """Run one-time setup for a test case."""
+        test_type = test_config["type"]
+
+        if test_type == "pandas_load":
+            self.setup_pandas_load_test(test_name)
+        else:
+            logging.warning(f"No setup method defined for test type: {test_type}")
+
+    def setup_pandas_load_test(self, test_name: str) -> None:
+        """Setup for pandas load test - create persistent venv with pandas."""
+        venv_dir = self.target_path / f"pandas_venv_{test_name}"
+
+        # Remove existing venv if it exists
+        if venv_dir.exists():
+            shutil.rmtree(venv_dir)
+
+        try:
+            # Create virtual environment
+            result = subprocess.run(
+                [sys.executable, "-m", "venv", str(venv_dir)],
+                capture_output=True,
+                text=True,
+                timeout=60,
+            )
+
+            if result.returncode != 0:
+                raise RuntimeError(
+                    f"Virtual environment creation failed: {result.stderr}"
+                )
+
+            # Get pip executable path
+            if os.name == "nt":  # Windows
+                pip_path = venv_dir / "Scripts" / "pip.exe"
+            else:  # Unix-like
+                pip_path = venv_dir / "bin" / "pip"
+
+            # Install pandas
+            result = subprocess.run(
+                [str(pip_path), "install", "pandas"],
+                capture_output=True,
+                text=True,
+                timeout=300,
+            )
+
+            if result.returncode != 0:
+                raise RuntimeError(f"Pandas installation failed: {result.stderr}")
+
+            logging.info(f"Setup completed: pandas venv at {venv_dir}")
+
+        except Exception as e:
+            # Clean up on failure
+            if venv_dir.exists():
+                shutil.rmtree(venv_dir)
+            raise e
+
+    def test_pandas_load(self, test_config: Dict[str, Any]) -> float:
+        """Test case: Time pandas import in a fresh Python process."""
+        test_name = None
+        # Find the test name by looking up the config
+        for name, config in self.config["test_definitions"].items():
+            if config is test_config:
+                test_name = name
+                break
+
+        if not test_name:
+            raise RuntimeError("Could not determine test name for pandas_load test")
+
+        venv_dir = self.target_path / f"pandas_venv_{test_name}"
+
+        if not venv_dir.exists():
+            raise RuntimeError(
+                f"Pandas venv not found at {venv_dir}. Setup may have failed."
+            )
+
+        # Get python executable path
+        if os.name == "nt":  # Windows
+            python_path = venv_dir / "Scripts" / "python.exe"
+        else:  # Unix-like
+            python_path = venv_dir / "bin" / "python"
+
+        # Time the pandas import in a fresh process
+        start_time = time.time()
+
+        result = subprocess.run(
+            [str(python_path), "-c", "import pandas"],
+            capture_output=True,
+            text=True,
+            timeout=30,
+        )
+
+        execution_time = time.time() - start_time
+
+        if result.returncode != 0:
+            raise RuntimeError(f"Pandas import failed: {result.stderr}")
+
+        return execution_time
 
     def run_test_loop(self):
         """Main test loop that runs indefinitely."""

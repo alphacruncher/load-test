@@ -9,7 +9,8 @@
         "clone_python_examples",
         "clone_large_repo",
         "install_pandas",
-        "install_ml_stack"
+        "install_ml_stack",
+        "load_pandas"
     ],
     "test_definitions": {
         "clone_hello_world": {
@@ -42,6 +43,11 @@
                 "scikit-learn"
             ],
             "description": "Create virtual environment and install ML packages"
+        },
+        "load_pandas": {
+            "type": "pandas_load",
+            "description": "Test pandas loading performance with cold starts",
+            "setup_required": true
         }
     },
     "database": {
