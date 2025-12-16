@@ -1,0 +1,63 @@
+-- Database schema for filesystem load testing results
+-- Run this script to create the necessary database and table
+
+-- Create database (run as superuser)
+-- CREATE DATABASE load_test_db;
+-- CREATE USER load_test_user WITH PASSWORD 'your_password_here';
+-- GRANT ALL PRIVILEGES ON DATABASE load_test_db TO load_test_user;
+
+-- Connect to load_test_db and run the following:
+
+-- Create the table for storing test results
+CREATE TABLE IF NOT EXISTS load_test_results (
+    id SERIAL PRIMARY KEY,
+    setup_id VARCHAR(100) NOT NULL,
+    test_name VARCHAR(100) NOT NULL,
+    start_time TIMESTAMP WITH TIME ZONE NOT NULL,
+    execution_time_seconds DECIMAL(10, 3) NOT NULL,
+    success BOOLEAN NOT NULL DEFAULT false,
+    error_message TEXT,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create indexes for better query performance
+CREATE INDEX IF NOT EXISTS idx_load_test_results_setup_id ON load_test_results(setup_id);
+CREATE INDEX IF NOT EXISTS idx_load_test_results_test_name ON load_test_results(test_name);
+CREATE INDEX IF NOT EXISTS idx_load_test_results_start_time ON load_test_results(start_time);
+CREATE INDEX IF NOT EXISTS idx_load_test_results_success ON load_test_results(success);
+
+-- Grant permissions to the load test user
+GRANT SELECT, INSERT, UPDATE, DELETE ON load_test_results TO load_test_user;
+GRANT USAGE, SELECT ON SEQUENCE load_test_results_id_seq TO load_test_user;
+
+-- Example queries for analyzing results:
+
+-- Get average execution times by setup and test type
+-- SELECT 
+--     setup_id,
+--     test_name,
+--     COUNT(*) as total_runs,
+--     AVG(execution_time_seconds) as avg_time,
+--     MIN(execution_time_seconds) as min_time,
+--     MAX(execution_time_seconds) as max_time,
+--     STDDEV(execution_time_seconds) as std_dev
+-- FROM load_test_results 
+-- WHERE success = true 
+-- GROUP BY setup_id, test_name;
+
+-- Get recent test results
+-- SELECT * FROM load_test_results 
+-- ORDER BY start_time DESC 
+-- LIMIT 50;
+
+-- Get failure analysis
+-- SELECT 
+--     setup_id,
+--     test_name,
+--     COUNT(*) as total_failures,
+--     error_message,
+--     COUNT(*) as frequency
+-- FROM load_test_results 
+-- WHERE success = false 
+-- GROUP BY setup_id, test_name, error_message
+-- ORDER BY frequency DESC;

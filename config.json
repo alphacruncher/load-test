@@ -1,0 +1,53 @@
+{
+    "setup_id": "your_setup_name_here",
+    "target_path": "/tmp/load_test_workspace",
+    "loop_interval_seconds": 300,
+    "log_level": "INFO",
+    "log_file": "filesystem_load_test.log",
+    "enabled_tests": [
+        "clone_hello_world",
+        "clone_python_examples",
+        "clone_large_repo",
+        "install_pandas",
+        "install_ml_stack"
+    ],
+    "test_definitions": {
+        "clone_hello_world": {
+            "type": "git_clone",
+            "repository_url": "https://github.com/octocat/Hello-World.git",
+            "description": "Clone small repository to test basic filesystem write performance"
+        },
+        "clone_python_examples": {
+            "type": "git_clone",
+            "repository_url": "https://github.com/python/cpython.git",
+            "description": "Clone medium-sized Python repository"
+        },
+        "clone_large_repo": {
+            "type": "git_clone",
+            "repository_url": "https://github.com/torvalds/linux.git",
+            "description": "Clone large repository to test heavy filesystem operations"
+        },
+        "install_pandas": {
+            "type": "virtualenv_install",
+            "packages": [
+                "pandas"
+            ],
+            "description": "Create virtual environment and install pandas"
+        },
+        "install_ml_stack": {
+            "type": "virtualenv_install",
+            "packages": [
+                "pandas",
+                "numpy",
+                "scikit-learn"
+            ],
+            "description": "Create virtual environment and install ML packages"
+        }
+    },
+    "database": {
+        "host": "localhost",
+        "port": 5432,
+        "database": "load_test_db",
+        "user": "load_test_user"
+    }
+}
