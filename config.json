@@ -1,6 +1,6 @@
 {
-    "setup_id": "your_setup_name_here",
-    "target_path": "/tmp/load_test_workspace",
+    "setup_id": "nuvolos_staging",
+    "target_path": "/files/tmp_loadtest",
     "loop_interval_seconds": 300,
     "log_level": "INFO",
     "log_file": "filesystem_load_test.log",
@@ -18,14 +18,9 @@
             "repository_url": "https://github.com/octocat/Hello-World.git",
             "description": "Clone small repository to test basic filesystem write performance"
         },
-        "clone_python_examples": {
-            "type": "git_clone",
-            "repository_url": "https://github.com/python/cpython.git",
-            "description": "Clone medium-sized Python repository"
-        },
         "clone_large_repo": {
             "type": "git_clone",
-            "repository_url": "https://github.com/torvalds/linux.git",
+            "repository_url": "https://github.com/electronicarts/CnC_Remastered_Collection.git",
             "description": "Clone large repository to test heavy filesystem operations"
         },
         "install_pandas": {
@@ -51,9 +46,9 @@
         }
     },
     "database": {
-        "host": "localhost",
+        "host": "nv-service-5868fe2fec8481a5897de81efb7f22d2",
         "port": 5432,
-        "database": "load_test_db",
-        "user": "load_test_user"
+        "database": "nuvolos",
+        "user": "nuvolos"
     }
 }

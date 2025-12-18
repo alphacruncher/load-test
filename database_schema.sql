@@ -26,10 +26,6 @@ CREATE INDEX IF NOT EXISTS idx_load_test_results_test_name ON load_test_results(
 CREATE INDEX IF NOT EXISTS idx_load_test_results_start_time ON load_test_results(start_time);
 CREATE INDEX IF NOT EXISTS idx_load_test_results_success ON load_test_results(success);
 
--- Grant permissions to the load test user
-GRANT SELECT, INSERT, UPDATE, DELETE ON load_test_results TO load_test_user;
-GRANT USAGE, SELECT ON SEQUENCE load_test_results_id_seq TO load_test_user;
-
 -- Example queries for analyzing results:
 
 -- Get average execution times by setup and test type
