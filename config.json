@@ -1,12 +1,10 @@
 {
     "target_path": "/files/tmp_loadtest",
     "loop_interval_seconds": 300,
-    "log_level": "DEBUG",
+    "log_level": "INFO",
     "log_file": "filesystem_load_test.log",
     "enabled_tests": [
-        "clone_hello_world",
-        "clone_python_examples",
-        "clone_large_repo",
+        "clone_cnc_repo",
         "install_pandas",
         "install_ml_stack",
         "load_pandas"

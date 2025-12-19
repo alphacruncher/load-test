@@ -55,6 +55,7 @@ class DatabaseLogger:
     def log_test_result(
         self,
         setup_id: str,
+        hostname: str,
         test_name: str,
         start_time: datetime,
         execution_time: float,
@@ -70,12 +71,13 @@ class DatabaseLogger:
             with self.connection.cursor() as cursor:
                 cursor.execute(
                     """
-                    INSERT INTO load_test_results 
-                    (setup_id, test_name, start_time, execution_time_seconds, success, error_message)
-                    VALUES (%s, %s, %s, %s, %s, %s)
+                    INSERT INTO load_test_results
+                    (setup_id, hostname, test_name, start_time, execution_time_seconds, success, error_message)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s)
                 """,
                     (
                         setup_id,
+                        hostname,
                         test_name,
                         start_time,
                         execution_time,
@@ -85,7 +87,7 @@ class DatabaseLogger:
                 )
             self.connection.commit()
             logging.debug(
-                f"Logged test result: {setup_id}/{test_name}, {execution_time:.2f}s"
+                f"Logged test result: {setup_id}/{hostname}/{test_name}, {execution_time:.2f}s"
             )
         except Exception as e:
             logging.exception(f"Failed to log test result to database: {e}")
@@ -252,6 +254,7 @@ class FilesystemLoadTester:
         # Log to database
         self.db_logger.log_test_result(
             self.config["setup_id"],
+            self.hostname,
             test_name,
             start_time,
             execution_time,
