@@ -28,6 +28,28 @@ CREATE INDEX IF NOT EXISTS idx_load_test_results_test_name ON load_test_results(
 CREATE INDEX IF NOT EXISTS idx_load_test_results_start_time ON load_test_results(start_time);
 CREATE INDEX IF NOT EXISTS idx_load_test_results_success ON load_test_results(success);
 
+-- Create the table for storing FIO test metrics
+CREATE TABLE IF NOT EXISTS fio_metrics (
+    id SERIAL PRIMARY KEY,
+    test_result_id INTEGER REFERENCES load_test_results(id) ON DELETE CASCADE,
+    setup_id VARCHAR(100) NOT NULL,
+    hostname VARCHAR(255) NOT NULL,
+    test_name VARCHAR(100) NOT NULL,
+    start_time TIMESTAMP WITH TIME ZONE NOT NULL,
+    read_iops DECIMAL(15, 2),
+    write_iops DECIMAL(15, 2),
+    read_bw_kbps DECIMAL(15, 2),
+    write_bw_kbps DECIMAL(15, 2),
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create indexes for FIO metrics table
+CREATE INDEX IF NOT EXISTS idx_fio_metrics_test_result_id ON fio_metrics(test_result_id);
+CREATE INDEX IF NOT EXISTS idx_fio_metrics_setup_id ON fio_metrics(setup_id);
+CREATE INDEX IF NOT EXISTS idx_fio_metrics_hostname ON fio_metrics(hostname);
+CREATE INDEX IF NOT EXISTS idx_fio_metrics_test_name ON fio_metrics(test_name);
+CREATE INDEX IF NOT EXISTS idx_fio_metrics_start_time ON fio_metrics(start_time);
+
 -- Example queries for analyzing results:
 
 -- Get average execution times by setup, hostname, and test type
@@ -60,3 +82,32 @@ CREATE INDEX IF NOT EXISTS idx_load_test_results_success ON load_test_results(su
 -- WHERE success = false
 -- GROUP BY setup_id, hostname, test_name, error_message
 -- ORDER BY frequency DESC;
+
+-- Get FIO performance metrics summary
+-- SELECT
+--     setup_id,
+--     hostname,
+--     test_name,
+--     COUNT(*) as total_runs,
+--     AVG(read_iops) as avg_read_iops,
+--     AVG(write_iops) as avg_write_iops,
+--     AVG(read_bw_kbps) as avg_read_bw_kbps,
+--     AVG(write_bw_kbps) as avg_write_bw_kbps,
+--     MAX(read_iops) as max_read_iops,
+--     MAX(write_iops) as max_write_iops
+-- FROM fio_metrics
+-- GROUP BY setup_id, hostname, test_name
+-- ORDER BY setup_id, hostname, test_name;
+
+-- Get FIO metrics over time
+-- SELECT
+--     start_time,
+--     test_name,
+--     read_iops,
+--     write_iops,
+--     read_bw_kbps,
+--     write_bw_kbps
+-- FROM fio_metrics
+-- WHERE setup_id = 'your_setup_id'
+-- ORDER BY start_time DESC
+-- LIMIT 100;

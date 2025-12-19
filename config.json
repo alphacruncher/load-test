@@ -4,6 +4,7 @@
     "log_level": "INFO",
     "log_file": "filesystem_load_test.log",
     "enabled_tests": [
+        "fio_random_read_write",
         "clone_cnc_repo",
         "install_pandas",
         "install_ml_stack",
@@ -35,6 +36,23 @@
             "type": "pandas_load",
             "description": "Test pandas loading performance with cold starts",
             "setup_required": true
+        },
+        "fio_random_read_write": {
+            "type": "fio",
+            "description": "FIO random read/write test with 4K block size, for 5 seconds",
+            "fio_params": [
+                "--name=randrw",
+                "--ioengine=libaio",
+                "--direct=1",
+                "--rw=randrw",
+                "--rwmixread=70",
+                "--bs=4k",
+                "--size=100M",
+                "--numjobs=4",
+                "--runtime=5",
+                "--time_based",
+                "--group_reporting"
+            ]
         }
     },
     "database": {

@@ -61,11 +61,11 @@ class DatabaseLogger:
         execution_time: float,
         success: bool,
         error_message: Optional[str] = None,
-    ):
-        """Log test execution results to database."""
+    ) -> Optional[int]:
+        """Log test execution results to database. Returns the test result ID."""
         if not self.connection:
             logging.warning("No database connection available")
-            return
+            return None
 
         try:
             with self.connection.cursor() as cursor:
@@ -74,6 +74,7 @@ class DatabaseLogger:
                     INSERT INTO load_test_results
                     (setup_id, hostname, test_name, start_time, execution_time_seconds, success, error_message)
                     VALUES (%s, %s, %s, %s, %s, %s, %s)
+                    RETURNING id
                 """,
                     (
                         setup_id,
@@ -85,19 +86,70 @@ class DatabaseLogger:
                         error_message,
                     ),
                 )
+                result_id = cursor.fetchone()[0]
             self.connection.commit()
             logging.debug(
                 f"Logged test result: {setup_id}/{hostname}/{test_name}, {execution_time:.2f}s"
             )
+            return result_id
         except Exception as e:
             logging.exception(f"Failed to log test result to database: {e}")
+            self.connection.rollback()
+            return None
+
+    def log_fio_metrics(
+        self,
+        test_result_id: int,
+        setup_id: str,
+        hostname: str,
+        test_name: str,
+        start_time: datetime,
+        read_iops: Optional[float] = None,
+        write_iops: Optional[float] = None,
+        read_bw_kbps: Optional[float] = None,
+        write_bw_kbps: Optional[float] = None,
+    ):
+        """Log FIO test metrics to database."""
+        if not self.connection:
+            logging.warning("No database connection available")
+            return
+
+        try:
+            with self.connection.cursor() as cursor:
+                cursor.execute(
+                    """
+                    INSERT INTO fio_metrics
+                    (test_result_id, setup_id, hostname, test_name, start_time,
+                     read_iops, write_iops, read_bw_kbps, write_bw_kbps)
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+                """,
+                    (
+                        test_result_id,
+                        setup_id,
+                        hostname,
+                        test_name,
+                        start_time,
+                        read_iops,
+                        write_iops,
+                        read_bw_kbps,
+                        write_bw_kbps,
+                    ),
+                )
+            self.connection.commit()
+            logging.debug(
+                f"Logged FIO metrics: {setup_id}/{hostname}/{test_name}, "
+                f"R_IOPS={read_iops}, W_IOPS={write_iops}, "
+                f"R_BW={read_bw_kbps}KB/s, W_BW={write_bw_kbps}KB/s"
+            )
+        except Exception as e:
+            logging.exception(f"Failed to log FIO metrics to database: {e}")
             self.connection.rollback()
 
 
 class FilesystemLoadTester:
     """Main class for orchestrating filesystem load tests."""
 
-    def __init__(self, config_file: str = "config.json", setup_id: str = None, log_level: str = None):
+    def __init__(self, config_file: str = "config.json", setup_id: str = None, log_level: str = None, enabled_tests: List[str] = None, loop_interval: int = None):
         self.config_file = config_file
         self.config = self.load_config()
 
@@ -110,6 +162,14 @@ class FilesystemLoadTester:
         # Override log_level from command line
         if log_level:
             self.config["log_level"] = log_level
+
+        # Override enabled_tests from command line
+        if enabled_tests:
+            self.config["enabled_tests"] = enabled_tests
+
+        # Override loop_interval_seconds from command line
+        if loop_interval is not None:
+            self.config["loop_interval_seconds"] = loop_interval
 
         self.db_logger = DatabaseLogger(self.config)
 
@@ -211,6 +271,7 @@ class FilesystemLoadTester:
         start_time = datetime.now(timezone.utc)
         success = False
         error_message = None
+        fio_metrics = None
 
         try:
             logging.info(f"Starting test: {test_name}")
@@ -234,12 +295,15 @@ class FilesystemLoadTester:
                 self.run_test_setup(test_name, test_config)
                 self.setup_completed.add(test_name)
                 logging.info(f"Setup completed for test: {test_name}")
+
             if test_type == "git_clone":
                 execution_time = self.test_git_clone(test_config)
             elif test_type == "virtualenv_install":
                 execution_time = self.test_virtualenv_install(test_config)
             elif test_type == "pandas_load":
                 execution_time = self.test_pandas_load(test_config)
+            elif test_type == "fio":
+                execution_time, fio_metrics = self.test_fio(test_config)
             else:
                 raise ValueError(f"Unknown test type: {test_type}")
 
@@ -252,7 +316,7 @@ class FilesystemLoadTester:
             logging.exception(f"Test {test_name} failed after {execution_time:.2f} seconds: {e}")
 
         # Log to database
-        self.db_logger.log_test_result(
+        test_result_id = self.db_logger.log_test_result(
             self.config["setup_id"],
             self.hostname,
             test_name,
@@ -261,6 +325,20 @@ class FilesystemLoadTester:
             success,
             error_message,
         )
+
+        # Log FIO metrics if available
+        if fio_metrics and test_result_id:
+            self.db_logger.log_fio_metrics(
+                test_result_id,
+                self.config["setup_id"],
+                self.hostname,
+                test_name,
+                start_time,
+                read_iops=fio_metrics.get("read_iops"),
+                write_iops=fio_metrics.get("write_iops"),
+                read_bw_kbps=fio_metrics.get("read_bw_kbps"),
+                write_bw_kbps=fio_metrics.get("write_bw_kbps"),
+            )
 
     def test_git_clone(self, test_config: Dict[str, Any]) -> float:
         """Test case: Clone a repository to target path."""
@@ -533,6 +611,138 @@ class FilesystemLoadTester:
             logging.exception(f"Pandas load test failed for {test_name}: {e}")
             raise
 
+    def test_fio(self, test_config: Dict[str, Any]) -> tuple[float, Dict[str, float]]:
+        """Test case: Run FIO benchmark and collect performance metrics.
+
+        Returns:
+            tuple: (execution_time, metrics_dict) where metrics_dict contains:
+                - read_iops: Read IOPS
+                - write_iops: Write IOPS
+                - read_bw_kbps: Read bandwidth in KB/s
+                - write_bw_kbps: Write bandwidth in KB/s
+        """
+        start_time = time.time()
+
+        # Get FIO parameters from config
+        fio_params = test_config.get("fio_params", [])
+        if not fio_params:
+            raise ValueError("FIO test requires 'fio_params' list in config")
+
+        # Create temporary output file for FIO JSON results
+        output_file = self.target_path / f"fio_output_{int(time.time())}.json"
+
+        try:
+            # Build FIO command with JSON output
+            fio_cmd = ["fio", "--output-format=json", f"--output={output_file}"] + fio_params
+
+            logging.debug(f"Running FIO with parameters: {fio_params}")
+            logging.debug(f"FIO command: {' '.join(fio_cmd)}")
+
+            # Execute FIO
+            result = subprocess.run(
+                fio_cmd,
+                capture_output=True,
+                text=True,
+                timeout=600,  # 10 minute timeout for FIO tests
+                cwd=str(self.target_path),
+            )
+
+            # Log command output at DEBUG level
+            logging.debug(f"FIO stdout: {result.stdout}")
+            logging.debug(f"FIO stderr: {result.stderr}")
+            logging.debug(f"FIO return code: {result.returncode}")
+
+            if result.returncode != 0:
+                logging.error(f"FIO failed with return code {result.returncode}")
+                raise RuntimeError(f"FIO failed: {result.stderr}")
+
+            # Parse JSON output
+            if not output_file.exists():
+                raise RuntimeError(f"FIO output file not found: {output_file}")
+
+            with open(output_file, "r") as f:
+                fio_output = json.load(f)
+
+            # Extract metrics from FIO JSON output
+            metrics = self._parse_fio_metrics(fio_output)
+
+            elapsed = time.time() - start_time
+            logging.debug(f"FIO test completed in {elapsed:.2f} seconds")
+            logging.info(
+                f"FIO metrics - Read IOPS: {metrics.get('read_iops', 'N/A')}, "
+                f"Write IOPS: {metrics.get('write_iops', 'N/A')}, "
+                f"Read BW: {metrics.get('read_bw_kbps', 'N/A')} KB/s, "
+                f"Write BW: {metrics.get('write_bw_kbps', 'N/A')} KB/s"
+            )
+
+            return elapsed, metrics
+
+        except Exception as e:
+            logging.exception(f"FIO test failed: {e}")
+            raise
+        finally:
+            # Cleanup: Remove output file
+            if output_file.exists():
+                output_file.unlink()
+                logging.debug(f"Cleaned up FIO output file: {output_file}")
+
+    def _parse_fio_metrics(self, fio_output: Dict[str, Any]) -> Dict[str, float]:
+        """Parse FIO JSON output to extract performance metrics.
+
+        Args:
+            fio_output: Parsed JSON output from FIO
+
+        Returns:
+            Dictionary with read_iops, write_iops, read_bw_kbps, write_bw_kbps
+        """
+        metrics = {}
+
+        try:
+            # FIO output structure: {"jobs": [{job_data}, ...]}
+            if "jobs" not in fio_output or not fio_output["jobs"]:
+                logging.warning("No jobs found in FIO output")
+                return metrics
+
+            # Sum metrics across all jobs
+            total_read_iops = 0
+            total_write_iops = 0
+            total_read_bw = 0
+            total_write_bw = 0
+
+            for job in fio_output["jobs"]:
+                # Read metrics
+                if "read" in job:
+                    read_data = job["read"]
+                    # IOPS can be in 'iops' or 'iops_mean' field
+                    read_iops = read_data.get("iops", read_data.get("iops_mean", 0))
+                    total_read_iops += read_iops
+                    # Bandwidth is in KB/s
+                    total_read_bw += read_data.get("bw", read_data.get("bw_mean", 0))
+
+                # Write metrics
+                if "write" in job:
+                    write_data = job["write"]
+                    write_iops = write_data.get("iops", write_data.get("iops_mean", 0))
+                    total_write_iops += write_iops
+                    total_write_bw += write_data.get("bw", write_data.get("bw_mean", 0))
+
+            # Store metrics if they are non-zero
+            if total_read_iops > 0:
+                metrics["read_iops"] = total_read_iops
+            if total_write_iops > 0:
+                metrics["write_iops"] = total_write_iops
+            if total_read_bw > 0:
+                metrics["read_bw_kbps"] = total_read_bw
+            if total_write_bw > 0:
+                metrics["write_bw_kbps"] = total_write_bw
+
+            logging.debug(f"Parsed FIO metrics: {metrics}")
+
+        except Exception as e:
+            logging.warning(f"Failed to parse FIO metrics: {e}", exc_info=True)
+
+        return metrics
+
     def run_test_loop(self):
         """Main test loop that runs indefinitely."""
         logging.info("Starting filesystem load test loop")
@@ -613,13 +823,27 @@ def main():
         choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
         help="Logging level (overrides config file)",
     )
+    parser.add_argument(
+        "--tests",
+        "-t",
+        nargs="+",
+        help="List of tests to run (overrides config file enabled_tests). Example: --tests test1 test2 test3",
+    )
+    parser.add_argument(
+        "--loop-interval",
+        "-i",
+        type=int,
+        help="Loop interval in seconds (overrides config file). Time to wait between test iterations.",
+    )
 
     args = parser.parse_args()
 
     tester = FilesystemLoadTester(
         args.config,
         setup_id=args.setup_id,
-        log_level=args.log_level
+        log_level=args.log_level,
+        enabled_tests=args.tests,
+        loop_interval=args.loop_interval
     )
     tester.run()
 
