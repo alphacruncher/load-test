@@ -14,6 +14,8 @@ import logging
 import subprocess
 import shutil
 import tempfile
+import socket
+import signal
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Any, Optional
@@ -93,13 +95,33 @@ class DatabaseLogger:
 class FilesystemLoadTester:
     """Main class for orchestrating filesystem load tests."""
 
-    def __init__(self, config_file: str = "config.json"):
+    def __init__(self, config_file: str = "config.json", setup_id: str = None, log_level: str = None):
         self.config_file = config_file
         self.config = self.load_config()
+
+        # Override setup_id from command line
+        if setup_id:
+            self.config["setup_id"] = setup_id
+        elif "setup_id" not in self.config:
+            raise ValueError("setup_id must be provided via command line or config file")
+
+        # Override log_level from command line
+        if log_level:
+            self.config["log_level"] = log_level
+
         self.db_logger = DatabaseLogger(self.config)
-        self.target_path = Path(self.config["target_path"])
+
+        # Get hostname and create subdirectory structure
+        self.hostname = socket.gethostname()
+        base_target_path = Path(self.config["target_path"])
+        self.target_path = base_target_path / self.hostname
+
         self.setup_completed = set()  # Track which tests have completed setup
         self.setup_logging()
+
+        # Register signal handlers
+        signal.signal(signal.SIGTERM, self._signal_handler)
+        signal.signal(signal.SIGINT, self._signal_handler)
 
     def load_config(self) -> Dict[str, Any]:
         """Load configuration from JSON file."""
@@ -125,6 +147,30 @@ class FilesystemLoadTester:
                 logging.StreamHandler(sys.stdout),
             ],
         )
+
+    def _signal_handler(self, signum, frame):
+        """Handle termination signals by cleaning up and exiting gracefully."""
+        signal_name = signal.Signals(signum).name
+        logging.info(f"Received {signal_name} signal, cleaning up...")
+
+        try:
+            # Clean up all files and folders under target_path
+            if self.target_path.exists():
+                logging.info(f"Removing all contents under {self.target_path}")
+                shutil.rmtree(self.target_path)
+                logging.info(f"Successfully cleaned up {self.target_path}")
+        except Exception as e:
+            logging.exception(f"Error during cleanup: {e}")
+
+        try:
+            # Disconnect from database
+            self.db_logger.disconnect()
+            logging.info("Disconnected from database")
+        except Exception as e:
+            logging.exception(f"Error disconnecting from database: {e}")
+
+        logging.info("Exiting gracefully")
+        sys.exit(0)
 
     def ensure_target_path(self):
         """Ensure target path exists and is writable."""
@@ -152,8 +198,9 @@ class FilesystemLoadTester:
                     shutil.rmtree(item)
                     logging.debug(f"Cleaned up artifact: {item}")
             for item in ['/tmp/files', '/tmp/opt', '/tmp/pip']:
-                shutil.rmtree(item)
-                logging.debug(f"Cleaned up temp folder: {item}")
+                if Path(item).is_dir():
+                    shutil.rmtree(item)
+                    logging.debug(f"Cleaned up temp folder: {item}")
         except Exception as e:
             logging.warning(f"Error during cleanup: {e}", exc_info=True)
 
@@ -310,9 +357,25 @@ class FilesystemLoadTester:
             logging.debug(f"Package installation stderr: {result.stderr}")
             logging.debug(f"Package installation return code: {result.returncode}")
 
+            # Verify installation
+            pip_cmd = [str(pip_path), "list", "-v"]
+            logging.debug(f"Verify install paths")
+            logging.debug(f"Running command: {' '.join(pip_cmd)}")
+            result = subprocess.run(
+                pip_cmd,
+                capture_output=True,
+                text=True,
+                timeout=300,
+            )
+
+            # Log command output at DEBUG level
+            logging.debug(f"Package verification stdout: {result.stdout}")
+            logging.debug(f"Package verification stderr: {result.stderr}")
+            logging.debug(f"Package verification return code: {result.returncode}")
+
             if result.returncode != 0:
-                logging.error(f"Package installation failed with return code {result.returncode}")
-                raise RuntimeError(f"Package installation failed: {result.stderr}")
+                logging.error(f"Package verification failed with return code {result.returncode}")
+                raise RuntimeError(f"Package verification failed: {result.stderr}")
 
             elapsed = time.time() - start_time
             logging.debug(f"Virtualenv install completed in {elapsed:.2f} seconds")
@@ -470,6 +533,7 @@ class FilesystemLoadTester:
     def run_test_loop(self):
         """Main test loop that runs indefinitely."""
         logging.info("Starting filesystem load test loop")
+        logging.info(f"Hostname: {self.hostname}")
         logging.info(f"Setup ID: {self.config['setup_id']}")
         logging.info(f"Target path: {self.target_path}")
         logging.info(f"Enabled tests: {', '.join(self.config['enabled_tests'])}")
@@ -534,10 +598,26 @@ def main():
         default="config.json",
         help="Configuration file path (default: config.json)",
     )
+    parser.add_argument(
+        "--setup-id",
+        "-s",
+        required=True,
+        help="Unique identifier for this test setup (required)",
+    )
+    parser.add_argument(
+        "--log-level",
+        "-l",
+        choices=["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"],
+        help="Logging level (overrides config file)",
+    )
 
     args = parser.parse_args()
 
-    tester = FilesystemLoadTester(args.config)
+    tester = FilesystemLoadTester(
+        args.config,
+        setup_id=args.setup_id,
+        log_level=args.log_level
+    )
     tester.run()
 
 

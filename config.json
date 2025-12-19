@@ -1,5 +1,4 @@
 {
-    "setup_id": "nuvolos_staging",
     "target_path": "/files/tmp_loadtest",
     "loop_interval_seconds": 300,
     "log_level": "DEBUG",
@@ -13,20 +12,10 @@
         "load_pandas"
     ],
     "test_definitions": {
-        "clone_hello_world": {
-            "type": "git_clone",
-            "repository_url": "https://github.com/octocat/Hello-World.git",
-            "description": "Clone small repository to test basic filesystem write performance"
-        },
-        "clone_python_examples": {
-            "type": "git_clone",
-            "repository_url": "https://github.com/geekcomputers/Python.git",
-            "description": "Clone medium-sized Python examples repository"
-        },
-        "clone_large_repo": {
+        "clone_cnc_repo": {
             "type": "git_clone",
             "repository_url": "https://github.com/electronicarts/CnC_Remastered_Collection.git",
-            "description": "Clone large repository to test heavy filesystem operations"
+            "description": "Clone ~1400 files, ~45 MB in total"
         },
         "install_pandas": {
             "type": "virtualenv_install",
