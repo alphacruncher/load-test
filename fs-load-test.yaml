@@ -1,0 +1,105 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  namespace: loadtest
+  name: load-test-pgpass
+type: Opaque
+stringData:
+  pgpass: |
+    loadtest.postgres.database.azure.com:5432:postgres:loadtest:<pwd>
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: fs-load-test
+  name: fs-load-test
+  namespace: loadtest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fs-load-test
+  template:
+    metadata:
+      labels:
+        app: fs-load-test
+    spec:
+      automountServiceAccountToken: false
+      containers:
+      - command:
+        - /bin/bash
+        - -c
+        - sleep infinity
+        env:
+        - name: HPCUSER
+          value: simontam2
+        - name: NV_IS_SHARED
+          value: "False"
+        - name: NV_IS_STUDENT
+          value: "False"
+        - name: NCU
+          value: "2"
+        - name: OMP_NUM_THREADS
+          value: "2"
+        - name: OPENBLAS_NUM_THREADS
+          value: "2"
+        - name: MKL_NUM_THREADS
+          value: "2"
+        - name: NUMEXPR_MAX_THREADS
+          value: "2"
+        - name: NVIDIA_VISIBLE_DEVICES
+          value: all
+        - name: NVIDIA_DRIVER_CAPABILITIES
+          value: compute,utility
+        - name: PYTHONPYCACHEPREFIX
+          value: /tmp
+        - name: XDG_CACHE_HOME
+          value: /tmp
+        - name: DPI
+          value: "96"
+        - name: SCREEN_WIDTH
+          value: "1983"
+        - name: SCREEN_HEIGHT
+          value: "983"
+        image: nuvolos/public:789672_ltfio
+        imagePullPolicy: IfNotPresent
+        name: main-app
+        resources:
+          limits:
+            cpu: "2"
+            memory: 8G
+          requests:
+            cpu: 200m
+            ephemeral-storage: 200M
+            memory: 4G
+        securityContext:
+          allowPrivilegeEscalation: false
+          runAsGroup: 269400513
+          runAsUser: 269403658
+          seccompProfile:
+            type: RuntimeDefault
+        volumeMounts:
+        - mountPath: /dev/shm
+          name: dshm
+        - name: pgpass
+          mountPath: /etc/postgres
+          readOnly: true
+      restartPolicy: Always
+      securityContext: {}
+      volumes:
+      - emptyDir:
+          medium: Memory
+          sizeLimit: 4Gi
+        name: dshm
+      - name: pgpass
+        projected:
+          sources:
+          - secret:
+              name: load-test-pgpass
+              items:
+              - key: pgpass
+                path: pgpass
+                mode: 0600  # Required for .pgpass security
+
