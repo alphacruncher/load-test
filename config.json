@@ -2,7 +2,7 @@
     "setup_id": "nuvolos_staging",
     "target_path": "/files/tmp_loadtest",
     "loop_interval_seconds": 300,
-    "log_level": "INFO",
+    "log_level": "DEBUG",
     "log_file": "filesystem_load_test.log",
     "enabled_tests": [
         "clone_hello_world",
@@ -17,6 +17,11 @@
             "type": "git_clone",
             "repository_url": "https://github.com/octocat/Hello-World.git",
             "description": "Clone small repository to test basic filesystem write performance"
+        },
+        "clone_python_examples": {
+            "type": "git_clone",
+            "repository_url": "https://github.com/geekcomputers/Python.git",
+            "description": "Clone medium-sized Python examples repository"
         },
         "clone_large_repo": {
             "type": "git_clone",
@@ -46,9 +51,9 @@
         }
     },
     "database": {
-        "host": "nv-service-5868fe2fec8481a5897de81efb7f22d2",
+        "host": "loadtest.postgres.database.azure.com",
         "port": 5432,
-        "database": "nuvolos",
-        "user": "nuvolos"
+        "database": "postgres",
+        "user": "loadtest"
     }
 }

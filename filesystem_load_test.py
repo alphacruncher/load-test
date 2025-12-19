@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!usr/bin/env python3
 """
 Filesystem Load Testing Script
 
@@ -41,7 +41,7 @@ class DatabaseLogger:
             )
             logging.info("Connected to PostgreSQL database")
         except Exception as e:
-            logging.error(f"Failed to connect to database: {e}")
+            logging.exception(f"Failed to connect to database: {e}")
             raise
 
     def disconnect(self):
@@ -86,7 +86,7 @@ class DatabaseLogger:
                 f"Logged test result: {setup_id}/{test_name}, {execution_time:.2f}s"
             )
         except Exception as e:
-            logging.error(f"Failed to log test result: {e}")
+            logging.exception(f"Failed to log test result to database: {e}")
             self.connection.rollback()
 
 
@@ -108,10 +108,10 @@ class FilesystemLoadTester:
                 config = json.load(f)
             return config
         except FileNotFoundError:
-            logging.error(f"Configuration file {self.config_file} not found")
+            logging.exception(f"Configuration file {self.config_file} not found")
             sys.exit(1)
         except json.JSONDecodeError as e:
-            logging.error(f"Invalid JSON in configuration file: {e}")
+            logging.exception(f"Invalid JSON in configuration file: {e}")
             sys.exit(1)
 
     def setup_logging(self):
@@ -136,7 +136,7 @@ class FilesystemLoadTester:
             test_file.unlink()
             logging.info(f"Target path verified: {self.target_path}")
         except Exception as e:
-            logging.error(f"Target path not accessible: {e}")
+            logging.exception(f"Target path not accessible: {e}")
             raise
 
     def cleanup_test_artifacts(self):
@@ -147,11 +147,15 @@ class FilesystemLoadTester:
                 if item.is_dir() and (
                     item.name.startswith("test_repo_")
                     or item.name.startswith("test_venv_")
+                    # Don't clean up pandas_venv_ as those are persistent setups
                 ):
                     shutil.rmtree(item)
                     logging.debug(f"Cleaned up artifact: {item}")
+            for item in ['/tmp/files', '/tmp/opt', '/tmp/pip']:
+                shutil.rmtree(item)
+                logging.debug(f"Cleaned up temp folder: {item}")
         except Exception as e:
-            logging.warning(f"Error during cleanup: {e}")
+            logging.warning(f"Error during cleanup: {e}", exc_info=True)
 
     def execute_test_case(self, test_name: str) -> None:
         """Execute a single test case and log results."""
@@ -170,6 +174,7 @@ class FilesystemLoadTester:
 
             test_config = self.config["test_definitions"][test_name]
             test_type = test_config["type"]
+            logging.debug(f"Test {test_name} is of type: {test_type}")
 
             # Check if setup is required and not yet completed
             if (
@@ -182,9 +187,10 @@ class FilesystemLoadTester:
                 logging.info(f"Setup completed for test: {test_name}")
             if test_type == "git_clone":
                 execution_time = self.test_git_clone(test_config)
+            elif test_type == "virtualenv_install":
                 execution_time = self.test_virtualenv_install(test_config)
+            elif test_type == "pandas_load":
                 execution_time = self.test_pandas_load(test_config)
-                execution_time = self.test_virtualenv_install(test_config)
             else:
                 raise ValueError(f"Unknown test type: {test_type}")
 
@@ -194,7 +200,7 @@ class FilesystemLoadTester:
         except Exception as e:
             execution_time = (datetime.now(timezone.utc) - start_time).total_seconds()
             error_message = str(e)
-            logging.error(f"Test {test_name} failed: {e}")
+            logging.exception(f"Test {test_name} failed after {execution_time:.2f} seconds: {e}")
 
         # Log to database
         self.db_logger.log_test_result(
@@ -213,6 +219,8 @@ class FilesystemLoadTester:
         repo_url = test_config["repository_url"]
         clone_dir = self.target_path / f"test_repo_{int(time.time())}"
 
+        logging.debug(f"Cloning repository {repo_url} to {clone_dir}")
+
         try:
             # Execute git clone
             result = subprocess.run(
@@ -222,36 +230,60 @@ class FilesystemLoadTester:
                 timeout=300,
             )
 
+            # Log command output at DEBUG level
+            logging.debug(f"Git clone command: git clone {repo_url} {clone_dir}")
+            logging.debug(f"Git clone stdout: {result.stdout}")
+            logging.debug(f"Git clone stderr: {result.stderr}")
+            logging.debug(f"Git clone return code: {result.returncode}")
+
             if result.returncode != 0:
+                logging.error(f"Git clone failed with return code {result.returncode}")
                 raise RuntimeError(f"Git clone failed: {result.stderr}")
 
             # Verify clone was successful
             if not (clone_dir / ".git").exists():
                 raise RuntimeError("Repository was not properly cloned")
 
-            return time.time() - start_time
+            elapsed = time.time() - start_time
+            logging.debug(f"Git clone completed in {elapsed:.2f} seconds")
+            return elapsed
 
+        except Exception as e:
+            logging.exception(f"Git clone failed for {repo_url}: {e}")
+            raise
         finally:
             # Cleanup: Remove cloned repository
             if clone_dir.exists():
+                logging.debug(f"Cleaning up cloned repository: {clone_dir}")
                 shutil.rmtree(clone_dir)
 
     def test_virtualenv_install(self, test_config: Dict[str, Any]) -> float:
-        """Test case: Create virtualenv and install pandas."""
+        """Test case: Create virtualenv and install packages."""
         start_time = time.time()
 
         venv_dir = self.target_path / f"test_venv_{int(time.time())}"
+        packages = test_config["packages"]
+
+        logging.debug(f"Creating virtualenv at {venv_dir} and installing {packages}")
 
         try:
             # Create virtual environment
+            venv_cmd = [sys.executable, "-m", "venv", str(venv_dir)]
+            logging.debug(f"Running command: {' '.join(venv_cmd)}")
             result = subprocess.run(
-                [sys.executable, "-m", "venv", str(venv_dir)],
+                venv_cmd,
                 capture_output=True,
                 text=True,
                 timeout=60,
             )
 
+            # Log command output at DEBUG level
+            logging.debug(f"Venv creation stdout: {result.stdout}")
+            logging.debug(f"Venv creation stderr: {result.stderr}")
+            logging.debug(f"Venv creation return code: {result.returncode}")
+
             if result.returncode != 0:
+                logging.error(f"Virtual environment creation failed with return code {result.returncode}")
                 raise RuntimeError(
                     f"Virtual environment creation failed: {result.stderr}"
                 )
@@ -263,22 +295,36 @@ class FilesystemLoadTester:
                 pip_path = venv_dir / "bin" / "pip"
 
             # Install packages
-            packages = test_config["packages"]
+            pip_cmd = [str(pip_path), "install"] + packages
+            logging.debug(f"Installing packages: {packages}")
+            logging.debug(f"Running command: {' '.join(pip_cmd)}")
             result = subprocess.run(
-                [str(pip_path), "install"] + packages,
+                pip_cmd,
                 capture_output=True,
                 text=True,
                 timeout=300,
             )
 
+            # Log command output at DEBUG level
+            logging.debug(f"Package installation stdout: {result.stdout}")
+            logging.debug(f"Package installation stderr: {result.stderr}")
+            logging.debug(f"Package installation return code: {result.returncode}")
+
             if result.returncode != 0:
+                logging.error(f"Package installation failed with return code {result.returncode}")
                 raise RuntimeError(f"Package installation failed: {result.stderr}")
 
-            return time.time() - start_time
+            elapsed = time.time() - start_time
+            logging.debug(f"Virtualenv install completed in {elapsed:.2f} seconds")
+            return elapsed
 
+        except Exception as e:
+            logging.exception(f"Virtualenv install failed for packages {packages}: {e}")
+            raise
         finally:
             # Cleanup: Remove virtual environment
             if venv_dir.exists():
+                logging.debug(f"Cleaning up virtualenv: {venv_dir}")
                 shutil.rmtree(venv_dir)
 
     def run_test_setup(self, test_name: str, test_config: Dict[str, Any]) -> None:
@@ -294,20 +340,32 @@ class FilesystemLoadTester:
         """Setup for pandas load test - create persistent venv with pandas."""
         venv_dir = self.target_path / f"pandas_venv_{test_name}"
 
+        logging.info(f"Setting up pandas venv for {test_name} at {venv_dir}")
+
         # Remove existing venv if it exists
         if venv_dir.exists():
+            logging.debug(f"Removing existing venv at {venv_dir}")
             shutil.rmtree(venv_dir)
 
         try:
             # Create virtual environment
+            venv_cmd = [sys.executable, "-m", "venv", str(venv_dir)]
+            logging.debug(f"Creating virtualenv at {venv_dir}")
+            logging.debug(f"Running command: {' '.join(venv_cmd)}")
             result = subprocess.run(
-                [sys.executable, "-m", "venv", str(venv_dir)],
+                venv_cmd,
                 capture_output=True,
                 text=True,
                 timeout=60,
             )
 
+            # Log command output at DEBUG level
+            logging.debug(f"Setup venv creation stdout: {result.stdout}")
+            logging.debug(f"Setup venv creation stderr: {result.stderr}")
+            logging.debug(f"Setup venv creation return code: {result.returncode}")
+
             if result.returncode != 0:
+                logging.error(f"Virtual environment creation failed with return code {result.returncode}")
                 raise RuntimeError(
                     f"Virtual environment creation failed: {result.stderr}"
                 )
@@ -319,19 +377,29 @@ class FilesystemLoadTester:
                 pip_path = venv_dir / "bin" / "pip"
 
             # Install pandas
+            pip_cmd = [str(pip_path), "install", "pandas"]
+            logging.debug("Installing pandas in setup venv")
+            logging.debug(f"Running command: {' '.join(pip_cmd)}")
             result = subprocess.run(
-                [str(pip_path), "install", "pandas"],
+                pip_cmd,
                 capture_output=True,
                 text=True,
                 timeout=300,
             )
 
+            # Log command output at DEBUG level
+            logging.debug(f"Setup pandas installation stdout: {result.stdout}")
+            logging.debug(f"Setup pandas installation stderr: {result.stderr}")
+            logging.debug(f"Setup pandas installation return code: {result.returncode}")
+
             if result.returncode != 0:
+                logging.error(f"Pandas installation failed with return code {result.returncode}")
                 raise RuntimeError(f"Pandas installation failed: {result.stderr}")
 
             logging.info(f"Setup completed: pandas venv at {venv_dir}")
 
         except Exception as e:
+            logging.exception(f"Setup failed for pandas load test {test_name}: {e}")
             # Clean up on failure
             if venv_dir.exists():
                 shutil.rmtree(venv_dir)
@@ -351,6 +419,8 @@ class FilesystemLoadTester:
 
         venv_dir = self.target_path / f"pandas_venv_{test_name}"
 
+        logging.debug(f"Testing pandas load for {test_name} using venv at {venv_dir}")
+
         if not venv_dir.exists():
             raise RuntimeError(
                 f"Pandas venv not found at {venv_dir}. Setup may have failed."
@@ -362,41 +432,65 @@ class FilesystemLoadTester:
         else:  # Unix-like
             python_path = venv_dir / "bin" / "python"
 
+        if not python_path.exists():
+            raise RuntimeError(f"Python executable not found at {python_path}")
+
         # Time the pandas import in a fresh process
+        import_cmd = [str(python_path), "-c", "import pandas; print(pandas.__file__)"]
+        logging.debug(f"Starting pandas import test with python at {python_path}")
+        logging.debug(f"Running command: {' '.join(import_cmd)}")
         start_time = time.time()
 
-        result = subprocess.run(
-            [str(python_path), "-c", "import pandas"],
-            capture_output=True,
-            text=True,
-            timeout=30,
-        )
+        try:
+            result = subprocess.run(
+                import_cmd,
+                capture_output=True,
+                text=True,
+                timeout=30,
+            )
 
-        execution_time = time.time() - start_time
+            execution_time = time.time() - start_time
 
-        if result.returncode != 0:
-            raise RuntimeError(f"Pandas import failed: {result.stderr}")
+            # Log command output at DEBUG level
+            logging.debug(f"Pandas import stdout: {result.stdout}")
+            logging.debug(f"Pandas import stderr: {result.stderr}")
+            logging.debug(f"Pandas import return code: {result.returncode}")
 
-        return execution_time
+            if result.returncode != 0:
+                logging.error(f"Pandas import failed with return code {result.returncode}")
+                raise RuntimeError(f"Pandas import failed: {result.stderr}")
+
+            logging.debug(f"Pandas import completed in {execution_time:.2f} seconds")
+            return execution_time
+
+        except Exception as e:
+            logging.exception(f"Pandas load test failed for {test_name}: {e}")
+            raise
 
     def run_test_loop(self):
         """Main test loop that runs indefinitely."""
         logging.info("Starting filesystem load test loop")
+        logging.info(f"Setup ID: {self.config['setup_id']}")
+        logging.info(f"Target path: {self.target_path}")
+        logging.info(f"Enabled tests: {', '.join(self.config['enabled_tests'])}")
+        logging.info(f"Loop interval: {self.config['loop_interval_seconds']} seconds")
 
         # Connect to database
         self.db_logger.connect()
 
         try:
+            iteration = 0
             while True:
+                iteration += 1
                 loop_start = time.time()
-                logging.info("Starting new test loop iteration")
+                logging.info(f"Starting test loop iteration #{iteration}")
 
                 # Run enabled tests
                 for test_name in self.config["enabled_tests"]:
                     if test_name in self.config["test_definitions"]:
                         self.execute_test_case(test_name)
                     else:
-                        logging.warning(f"Unknown test case: {test_name}")
+                        logging.warning(f"Unknown test case '{test_name}' - skipping (not found in test_definitions)")
 
                 # Clean up any remaining artifacts
                 self.cleanup_test_artifacts()
@@ -425,7 +519,7 @@ class FilesystemLoadTester:
             self.cleanup_test_artifacts()
             self.run_test_loop()
         except Exception as e:
-            logging.error(f"Fatal error: {e}")
+            logging.exception(f"Fatal error in main execution: {e}")
             sys.exit(1)
 
 
