@@ -149,7 +149,7 @@ class DatabaseLogger:
 class FilesystemLoadTester:
     """Main class for orchestrating filesystem load tests."""
 
-    def __init__(self, config_file: str = "config.json", setup_id: str = None, log_level: str = None, enabled_tests: List[str] = None, loop_interval: int = None):
+    def __init__(self, config_file: str = "config.json", setup_id: str = None, log_level: str = None, enabled_tests: List[str] = None, loop_interval: int = None, target_path: str = None):
         self.config_file = config_file
         self.config = self.load_config()
 
@@ -170,6 +170,10 @@ class FilesystemLoadTester:
         # Override loop_interval_seconds from command line
         if loop_interval is not None:
             self.config["loop_interval_seconds"] = loop_interval
+
+        # Override target_path from command line
+        if target_path:
+            self.config["target_path"] = target_path
 
         self.db_logger = DatabaseLogger(self.config)
 
@@ -835,6 +839,11 @@ def main():
         type=int,
         help="Loop interval in seconds (overrides config file). Time to wait between test iterations.",
     )
+    parser.add_argument(
+        "--target-path",
+        "-p",
+        help="Target path for test operations (overrides config file). Tests will be performed in a subdirectory named after the hostname.",
+    )
 
     args = parser.parse_args()
 
@@ -843,7 +852,8 @@ def main():
         setup_id=args.setup_id,
         log_level=args.log_level,
         enabled_tests=args.tests,
-        loop_interval=args.loop_interval
+        loop_interval=args.loop_interval,
+        target_path=args.target_path
     )
     tester.run()
 
