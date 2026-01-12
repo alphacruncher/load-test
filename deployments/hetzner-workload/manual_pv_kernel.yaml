@@ -1,0 +1,41 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: manual-pv2
+spec:
+  accessModes:
+  - ReadWriteMany
+  capacity:
+    storage: 4Gi
+  csi:
+    controllerExpandSecretRef:
+      name: csi-cephfs-secret
+      namespace: ceph-csi
+    driver: cephfs.csi.ceph.com
+    nodeStageSecretRef:
+      name: csi-cephfs-secret
+      namespace: ceph-csi
+    volumeAttributes:
+      clusterID: b97c65ba-9614-47f9-bdc3-0daa7164dca3 
+      fsName: ceph-filesystem
+      mounter: kernel
+      rootPath: //volumes/csi/test-subvolume/1a7cce76-465b-4800-8d48-745226c77cde 
+      staticVolume: "true"
+    volumeHandle: manual-pv2
+  persistentVolumeReclaimPolicy: Delete
+  storageClassName: csi-cephfs-sc-kernel
+  volumeMode: Filesystem
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: manual-pv2
+  namespace: nv-apps
+spec:
+  storageClassName: csi-cephfs-sc-kernel
+  volumeName: manual-pv2
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 4Gi

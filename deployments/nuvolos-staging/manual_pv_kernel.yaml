@@ -16,23 +16,23 @@ spec:
       name: csi-cephfs-secret
       namespace: ceph-csi
     volumeAttributes:
-      clusterID: 32792421-4735-4012-a149-b59aabcf148a
-      fsName: ceph-filesystem
-      mounter: fuse
-      rootPath: /volumes/csi/test-subvolume/f74f2ec0-ccf6-4e95-8a84-85b10905b993
+      clusterID: e74a9248-0bc3-11eb-937c-cb4abf66149d 
+      fsName: cephfs
+      mounter: kernel
+      rootPath: //volumes/csi/test-subvolume/c4516214-85e1-4b6f-83c2-27bb05ead48c
       staticVolume: "true"
-    volumeHandle: manual-pv
+    volumeHandle: manual-pv2
   persistentVolumeReclaimPolicy: Delete
-  storageClassName: csi-cephfs-sc
+  storageClassName: csi-cephfs-sc-kernel
   volumeMode: Filesystem
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: manual-pvc2
+  name: manual-pv2
   namespace: nv-apps
 spec:
-  storageClassName: csi-cephfs-sc
+  storageClassName: csi-cephfs-sc-kernel
   volumeName: manual-pv2
   accessModes:
     - ReadWriteMany

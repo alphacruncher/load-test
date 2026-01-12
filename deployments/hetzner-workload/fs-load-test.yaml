@@ -1,21 +1,10 @@
-apiVersion: v1
-kind: Secret
-metadata:
-  namespace: loadtest
-  name: load-test-pgpass
-type: Opaque
-stringData:
-  pgpass: |
-    loadtest.postgres.database.azure.com:5432:postgres:loadtest:<pwd>
-
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
     app: fs-load-test
   name: fs-load-test
-  namespace: loadtest
+  namespace: nv-apps
 spec:
   replicas: 1
   selector:
@@ -26,12 +15,15 @@ spec:
       labels:
         app: fs-load-test
     spec:
+      securityContext:
+        fsGroup: 269400513
+        fsGroupChangePolicy: Always
       automountServiceAccountToken: false
       containers:
       - command:
         - /bin/bash
         - -c
-        - sleep infinity
+        -  cp /etc/postgres/pgpass /home/datahub/.pgpass && chmod 0600 /home/datahub/.pgpass && cd /files/load-test && source /opt/conda/bin/activate && python filesystem_load_test.py -s hetzner-staging-compute-kernel -p /cephfs -i 900
         env:
         - name: HPCUSER
           value: simontam2
@@ -63,7 +55,7 @@ spec:
           value: "1983"
         - name: SCREEN_HEIGHT
           value: "983"
-        image: nuvolos/public:789672_ltfio
+        image: nuvolos/public:789672_load_test_v2
         imagePullPolicy: IfNotPresent
         name: main-app
         resources:
@@ -86,9 +78,14 @@ spec:
         - name: pgpass
           mountPath: /etc/postgres
           readOnly: true
+        - name: cephfs-volume
+          mountPath: /cephfs
       restartPolicy: Always
       securityContext: {}
       volumes:
+      - name: cephfs-volume
+        persistentVolumeClaim:
+          claimName: manual-pvc2   
       - emptyDir:
           medium: Memory
           sizeLimit: 4Gi
@@ -101,5 +98,5 @@ spec:
               items:
               - key: pgpass
                 path: pgpass
-                mode: 0600  # Required for .pgpass security
+                mode: 0666  # Required for .pgpass security
 

@@ -1,0 +1,4 @@
+# Create test subvolume
+ceph fs subvolume create cephfs test-subvolume --group_name csi --size 4294967296 --mode 777
+# Get the full path for the subvolume
+ceph fs subvolume info cephfs test-subvolume --group_name csi | grep '"path'
