@@ -1,3 +1,4 @@
+# Execute the following command from the rook-ceph-tool pod in the Ceph cluster
 # Create test subvolume
 ceph fs subvolume create ceph-filesystem test-subvolume --group_name csi --size 4294967296 --mode 777
 # Get the full path for the subvolume

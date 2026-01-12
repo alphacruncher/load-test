@@ -20,6 +20,7 @@ spec:
         fsGroupChangePolicy: Always
       automountServiceAccountToken: false
       containers:
+      # Update the -s parameter to the actual test setup
       - command:
         - /bin/bash
         - -c
