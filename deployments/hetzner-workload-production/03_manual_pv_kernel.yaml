@@ -1,0 +1,43 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: manual-pvc
+spec:
+  accessModes:
+  - ReadWriteMany
+  capacity:
+    storage: 40Gi
+  csi:
+    controllerExpandSecretRef:
+      name: csi-cephfs-secret
+      namespace: ceph-csi
+    driver: cephfs.csi.ceph.com
+    nodeStageSecretRef:
+      name: csi-cephfs-secret
+      namespace: ceph-csi
+    volumeAttributes:
+      # Also update clusterID if different
+      clusterID: 91c28ed7-6ead-41a1-aa79-3e46249a09c6 
+      fsName: ceph-filesystem
+      mounter: kernel
+      # Update <actual_path_here> with the correct subvolume path
+      rootPath: /volumes/csi/test-subvolume/ac9c1cf5-84cf-44e8-9b23-6559bfb21718
+      staticVolume: "true"
+    volumeHandle: manual-pvc
+  persistentVolumeReclaimPolicy: Delete
+  storageClassName: csi-cephfs-sc-kernel
+  volumeMode: Filesystem
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: manual-pvc
+  namespace: nv-apps
+spec:
+  storageClassName: csi-cephfs-sc-kernel
+  volumeName: manual-pvc
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 40Gi

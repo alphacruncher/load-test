@@ -1,0 +1,103 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: fs-load-test
+  name: fs-load-test
+  namespace: nv-apps
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fs-load-test
+  template:
+    metadata:
+      labels:
+        app: fs-load-test
+    spec:
+      securityContext:
+        fsGroup: 269400513
+        fsGroupChangePolicy: Always
+      automountServiceAccountToken: false
+      containers:
+      # Update the -s parameter to the actual test setup
+      - command:
+        - /bin/bash
+        - -c
+        -  cp /etc/postgres/pgpass /home/datahub/.pgpass && chmod 0600 /home/datahub/.pgpass && cd /files/load-test && source /opt/conda/bin/activate && python filesystem_load_test.py -s hetzner-production-compute-kernel -p /cephfs -i 900
+        env:
+        - name: HPCUSER
+          value: simontam2
+        - name: NV_IS_SHARED
+          value: "False"
+        - name: NV_IS_STUDENT
+          value: "False"
+        - name: NCU
+          value: "2"
+        - name: OMP_NUM_THREADS
+          value: "2"
+        - name: OPENBLAS_NUM_THREADS
+          value: "2"
+        - name: MKL_NUM_THREADS
+          value: "2"
+        - name: NUMEXPR_MAX_THREADS
+          value: "2"
+        - name: NVIDIA_VISIBLE_DEVICES
+          value: all
+        - name: NVIDIA_DRIVER_CAPABILITIES
+          value: compute,utility
+        - name: PYTHONPYCACHEPREFIX
+          value: /tmp
+        - name: XDG_CACHE_HOME
+          value: /tmp
+        - name: DPI
+          value: "96"
+        - name: SCREEN_WIDTH
+          value: "1983"
+        - name: SCREEN_HEIGHT
+          value: "983"
+        image: nuvolos/public:789672_load_test_v2
+        imagePullPolicy: IfNotPresent
+        name: main-app
+        resources:
+          limits:
+            cpu: "2"
+            memory: 8G
+          requests:
+            cpu: 200m
+            ephemeral-storage: 200M
+            memory: 4G
+        securityContext:
+          allowPrivilegeEscalation: false
+          runAsGroup: 269400513
+          runAsUser: 269403658
+          seccompProfile:
+            type: RuntimeDefault
+        volumeMounts:
+        - mountPath: /dev/shm
+          name: dshm
+        - name: pgpass
+          mountPath: /etc/postgres
+          readOnly: true
+        - name: cephfs-volume
+          mountPath: /cephfs
+      restartPolicy: Always
+      securityContext: {}
+      volumes:
+      - name: cephfs-volume
+        persistentVolumeClaim:
+          claimName: manual-pvc   
+      - emptyDir:
+          medium: Memory
+          sizeLimit: 4Gi
+        name: dshm
+      - name: pgpass
+        projected:
+          sources:
+          - secret:
+              name: load-test-pgpass
+              items:
+              - key: pgpass
+                path: pgpass
+                mode: 0666  # Required for .pgpass security
+

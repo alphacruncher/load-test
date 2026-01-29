@@ -1,1 +1,4 @@
-filesystem_load_test.log
+*.log
+venv_*
+.streamlit
+__pycache__
